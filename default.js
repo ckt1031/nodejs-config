@@ -46,7 +46,10 @@ const config = {
     'react/button-has-type': 2,
     'react/prop-types': 0,
     'react/no-array-index-key': 2,
+    // SonarJS
+    'sonarjs/no-duplicate-string': 0,
     // Unicorn
+    'unicorn/no-null': 0,
     'unicorn/prefer-module': 0,
     'unicorn/no-useless-undefined': 0,
     'unicorn/prevent-abbreviations': 0,
