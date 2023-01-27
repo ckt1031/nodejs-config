@@ -4,11 +4,16 @@
   "private": false,
   "packageManager": "pnpm@7.26.1",
   "description": "ESLint config for ckt1031, ensure the consistency of code quality.",
-  "main": "src/config.js",
   "scripts": {
-    "lint": "eslint . --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build": "tsup src --format cjs --minify"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ckt1031/eslint-config.git"
@@ -27,6 +32,7 @@
   "devDependencies": {
     "eslint": "8.32.0",
     "prettier": "2.8.3",
+    "tsup": "6.5.0",
     "typescript": "4.9.4"
   },
   "dependencies": {
@@ -39,5 +45,8 @@
     "eslint-plugin-sonarjs": "0.18.0",
     "eslint-plugin-tailwindcss": "3.8.2",
     "eslint-plugin-unicorn": "45.0.2"
+  },
+  "exports": {
+    "config": "./dist/default.js"
   }
 }

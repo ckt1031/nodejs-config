@@ -26,8 +26,8 @@ Add the following code to your `.eslintrc.js` or `.eslintrc.json` file:
 
 ```js
 module.exports = {
-  extends: '@ckt1031'
-}
+  extends: '@ckt1031/default',
+};
 ```
 
 ## License
