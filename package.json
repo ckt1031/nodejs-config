@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "packageManager": "pnpm@7.26.1",
   "description": "ESLint config for ckt1031, ensure the consistency of code quality.",
-  "main": "index.js",
+  "main": "src/config.js",
   "scripts": {
     "lint": "eslint . --fix",
     "format": "prettier --write ."
