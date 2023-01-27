@@ -47,6 +47,6 @@
     "eslint-plugin-unicorn": "45.0.2"
   },
   "exports": {
-    "config": "./dist/default.js"
+    "default": "./dist/default.js"
   }
 }
