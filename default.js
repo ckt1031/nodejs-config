@@ -1,8 +1,8 @@
 const config = {
   env: {
-    browser: true,
     es6: true,
     node: true,
+    browser: true,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -20,7 +20,15 @@ const config = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
   ],
-  plugins: ['autofix', 'react', 'sonarjs', 'unicorn', '@typescript-eslint', 'simple-import-sort'],
+  plugins: [
+    'jsx-a11y',
+    'autofix',
+    'react',
+    'sonarjs',
+    'unicorn',
+    '@typescript-eslint',
+    'simple-import-sort',
+  ],
   rules: {
     semi: [2, 'always'],
     quotes: [
