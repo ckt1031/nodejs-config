@@ -1,6 +1,7 @@
 {
   "name": "@ckt1031/eslint-config",
   "version": "0.0.1",
+  "private": false,
   "packageManager": "pnpm@7.26.1",
   "description": "ESLint config for ckt1031, ensure the consistency of code quality.",
   "main": "src/config.js",
@@ -34,6 +35,7 @@
     "eslint-plugin-autofix": "1.1.0",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-react": "7.32.1",
+    "eslint-plugin-simple-import-sort": "9.0.0",
     "eslint-plugin-sonarjs": "0.18.0",
     "eslint-plugin-tailwindcss": "3.8.2",
     "eslint-plugin-unicorn": "45.0.2"

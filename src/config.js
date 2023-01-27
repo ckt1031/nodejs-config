@@ -18,8 +18,9 @@ const config = {
     'plugin:sonarjs/recommended',
     'plugin:tailwindcss/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
   ],
-  plugins: ['react', 'sonarjs', 'unicorn', '@typescript-eslint'],
+  plugins: ['autofix', 'react', 'sonarjs', 'unicorn', '@typescript-eslint', 'simple-import-sort'],
   rules: {
     semi: [2, 'always'],
     quotes: [
@@ -57,6 +58,24 @@ const config = {
       files: ['*.js'],
       rules: {
         '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+    {
+      files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
+      rules: {
+        'simple-import-sort/imports': [
+          'error',
+          {
+            groups: [
+              ['dotenv/config'],
+              ['^node:', '^react$', '^react-dom$', '^next?/|^next$'],
+              ['^@?\\w'],
+              ['^[\\w]'],
+              ['^'],
+              ['^\\.'],
+            ],
+          },
+        ],
       },
     },
   ],
