@@ -5,10 +5,12 @@ importers:
     specifiers:
       '@changesets/changelog-github': 0.4.8
       '@changesets/cli': 2.26.0
+      '@ckt1031/eslint-config': workspace:*
       prettier: 2.8.3
     dependencies:
       '@changesets/changelog-github': 0.4.8
       '@changesets/cli': 2.26.0
+      '@ckt1031/eslint-config': link:apps/eslint-config
       prettier: 2.8.3
 
   apps/eslint-config:
