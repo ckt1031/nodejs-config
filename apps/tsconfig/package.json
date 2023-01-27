@@ -1,0 +1,33 @@
+{
+  "name": "@ckt1031/tsconfig",
+  "version": "0.0.7",
+  "description": "Typescript config for ckt1031, ensure the consistency of code quality.",
+  "files": [
+    "base.json",
+    "web.json",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckt1031/nodejs-config.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ckt1031"
+  ],
+  "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/ckt1031/)",
+  "license": "MIT",
+  "homepage": "https://github.com/ckt1031/nodejs-config#readme",
+  "bugs": {
+    "url": "https://github.com/ckt1031/nodejs-config/issues"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4"
+  },
+  "peerDependencies": {
+    "typescript": "4.x"
+  }
+}
