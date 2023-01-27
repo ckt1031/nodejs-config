@@ -33,6 +33,7 @@ const config = {
     'sort-keys-fix',
     '@typescript-eslint',
     'simple-import-sort',
+    'write-good-comments',
   ],
   rules: {
     semi: [2, 'always'],
@@ -43,8 +44,10 @@ const config = {
         avoidEscape: true,
       },
     ],
+    // Write good comments
+    'write-good-comments/write-good-comments': 1,
     // Sort keys
-    'sort-keys-fix/sort-keys-fix': 'warn',
+    'sort-keys-fix/sort-keys-fix': 1,
     // Import sorting
     'simple-import-sort/imports': 2,
     'simple-import-sort/exports': 2,
