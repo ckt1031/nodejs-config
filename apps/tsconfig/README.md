@@ -7,7 +7,7 @@ Typescript configuration for [ckt1031](https://github.com/ckt1031). The rules ar
 ## Installation
 
 ```bash
-npm install --save-dev @ckt1031/tsconfigconfig
+npm install --save-dev @ckt1031/tsconfig
 ```
 
 ## Usage
