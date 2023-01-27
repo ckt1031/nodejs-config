@@ -1,48 +1,14 @@
 {
-  "name": "@ckt1031/eslint-config",
-  "version": "0.0.6",
-  "private": false,
+  "name": "@ckt1031/node-config",
+  "version": "0.0.0",
+  "private": true,
   "packageManager": "pnpm@7.26.1",
-  "description": "ESLint config for ckt1031, ensure the consistency of code quality.",
+  "description": "Sharable config for node.js from ckt1031",
   "scripts": {
     "format": "prettier --write ."
   },
-  "files": [
-    "default.js",
-    "README.md",
-    "LICENSE",
-    "package.json"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ckt1031/eslint-config.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "ckt1031"
-  ],
-  "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/ckt1031/)",
   "license": "MIT",
-  "homepage": "https://github.com/ckt1031/eslint-config#readme",
-  "bugs": {
-    "url": "https://github.com/ckt1031/eslint-config/issues"
-  },
   "devDependencies": {
-    "eslint": "8.32.0",
-    "prettier": "2.8.3",
-    "typescript": "4.9.4"
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.49.0",
-    "@typescript-eslint/parser": "5.49.0",
-    "eslint-plugin-autofix": "1.1.0",
-    "eslint-plugin-jsx-a11y": "6.7.1",
-    "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-react": "7.32.1",
-    "eslint-plugin-simple-import-sort": "9.0.0",
-    "eslint-plugin-sonarjs": "0.18.0",
-    "eslint-plugin-tailwindcss": "3.8.2",
-    "eslint-plugin-unicorn": "45.0.2"
+    "prettier": "2.8.3"
   }
 }
