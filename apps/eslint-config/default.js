@@ -15,6 +15,7 @@ const config = {
     'plugin:diff/diff',
     'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:regexp/recommended',
     'plugin:unicorn/recommended',
     'plugin:sonarjs/recommended',
     'plugin:tailwindcss/recommended',
@@ -22,12 +23,13 @@ const config = {
     'plugin:@typescript-eslint/eslint-recommended',
   ],
   plugins: [
+    'regexp',
     'jsx-a11y',
     'autofix',
     'react',
     'sonarjs',
     'unicorn',
-    "sort-keys-fix",
+    'sort-keys-fix',
     '@typescript-eslint',
     'simple-import-sort',
   ],
@@ -41,7 +43,7 @@ const config = {
       },
     ],
     // Sort keys
-    "sort-keys-fix/sort-keys-fix": "warn",
+    'sort-keys-fix/sort-keys-fix': 'warn',
     // Import sorting
     'simple-import-sort/imports': 2,
     'simple-import-sort/exports': 2,
