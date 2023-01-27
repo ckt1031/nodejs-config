@@ -1,6 +1,6 @@
 {
   "name": "@ckt1031/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "packageManager": "pnpm@7.26.1",
   "description": "ESLint config for ckt1031, ensure the consistency of code quality.",
