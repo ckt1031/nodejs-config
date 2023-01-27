@@ -22,6 +22,7 @@ importers:
       eslint-plugin-promise: 6.1.1
       eslint-plugin-react: 7.32.1
       eslint-plugin-regexp: 1.12.0
+      eslint-plugin-security: 1.7.0
       eslint-plugin-simple-import-sort: 9.0.0
       eslint-plugin-sonarjs: 0.18.0
       eslint-plugin-sort-keys-fix: 1.1.2
@@ -37,6 +38,7 @@ importers:
       eslint-plugin-promise: 6.1.1_eslint@8.32.0
       eslint-plugin-react: 7.32.1_eslint@8.32.0
       eslint-plugin-regexp: 1.12.0_eslint@8.32.0
+      eslint-plugin-security: 1.7.0
       eslint-plugin-simple-import-sort: 9.0.0_eslint@8.32.0
       eslint-plugin-sonarjs: 0.18.0_eslint@8.32.0
       eslint-plugin-sort-keys-fix: 1.1.2
@@ -1685,6 +1687,15 @@ packages:
       regexp-ast-analysis: 0.5.1
       regexpp: 3.2.0
       scslre: 0.1.6
+    dev: false
+
+  /eslint-plugin-security/1.7.0:
+    resolution:
+      {
+        integrity: sha512-+ahcCh7M5w7fdFaNccaChBGq8nd3Wa+XvGJS+hY74kvrMhG4EuLbljRIjilOqh1iDMW/EckB1oOWmiVIYlVACQ==,
+      }
+    dependencies:
+      safe-regex: 2.1.1
     dev: false
 
   /eslint-plugin-simple-import-sort/9.0.0_eslint@8.32.0:

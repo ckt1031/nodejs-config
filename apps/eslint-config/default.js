@@ -18,6 +18,7 @@ const config = {
     'plugin:regexp/recommended',
     'plugin:unicorn/recommended',
     'plugin:sonarjs/recommended',
+    'plugin:security/recommended',
     'plugin:tailwindcss/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
