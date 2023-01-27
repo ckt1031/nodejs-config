@@ -1,5 +1,5 @@
 ---
-'@ckt1031/tsconfig': major
+'@ckt1031/tsconfig': patch
 ---
 
 Init package

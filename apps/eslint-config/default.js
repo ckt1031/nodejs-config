@@ -12,6 +12,7 @@ const config = {
     },
   },
   extends: [
+    'plugin:diff/diff',
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:unicorn/recommended',
