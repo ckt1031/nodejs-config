@@ -30,6 +30,9 @@ const config = {
         avoidEscape: true,
       },
     ],
+    // Import sorting
+    'simple-import-sort/imports': 2,
+    'simple-import-sort/exports': 2,
     // React
     'react/react-in-jsx-scope': 0,
     'react/button-has-type': 2,
