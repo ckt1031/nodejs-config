@@ -5,12 +5,14 @@
   "packageManager": "pnpm@7.26.1",
   "description": "Sharable config for node.js from ckt1031",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint --fix ."
   },
   "license": "MIT",
   "dependencies": {
     "@changesets/changelog-github": "0.4.8",
     "@changesets/cli": "2.26.0",
+    "@ckt1031/eslint-config": "workspace:*",
     "prettier": "2.8.3"
   }
 }
