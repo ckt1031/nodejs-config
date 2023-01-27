@@ -27,6 +27,7 @@ const config = {
     'react',
     'sonarjs',
     'unicorn',
+    "sort-keys-fix",
     '@typescript-eslint',
     'simple-import-sort',
   ],
@@ -39,6 +40,8 @@ const config = {
         avoidEscape: true,
       },
     ],
+    // Sort keys
+    "sort-keys-fix/sort-keys-fix": "warn",
     // Import sorting
     'simple-import-sort/imports': 2,
     'simple-import-sort/exports': 2,
