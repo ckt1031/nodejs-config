@@ -17,6 +17,7 @@ importers:
       '@typescript-eslint/parser': 5.49.0
       eslint: 8.32.0
       eslint-plugin-autofix: 1.1.0
+      eslint-plugin-diff: 2.0.1
       eslint-plugin-jsx-a11y: 6.7.1
       eslint-plugin-promise: 6.1.1
       eslint-plugin-react: 7.32.1
@@ -29,6 +30,7 @@ importers:
       '@typescript-eslint/eslint-plugin': 5.49.0_iu322prlnwsygkcra5kbpy22si
       '@typescript-eslint/parser': 5.49.0_7uibuqfxkfaozanbtbziikiqje
       eslint-plugin-autofix: 1.1.0_eslint@8.32.0
+      eslint-plugin-diff: 2.0.1_eslint@8.32.0
       eslint-plugin-jsx-a11y: 6.7.1_eslint@8.32.0
       eslint-plugin-promise: 6.1.1_eslint@8.32.0
       eslint-plugin-react: 7.32.1_eslint@8.32.0
@@ -1561,6 +1563,18 @@ packages:
       esutils: 2.0.3
       lodash: 4.17.21
       string-similarity: 4.0.4
+    dev: false
+
+  /eslint-plugin-diff/2.0.1_eslint@8.32.0:
+    resolution:
+      {
+        integrity: sha512-qqbvwaaO1cfkUprliqiRojRsD0qGsvzmJNqNrb9s0h15sDVzZMXYdu0TUFpUwauLeU28etSsfWIp0Uu+OAcXXw==,
+      }
+    engines: { node: '>=14.0.0' }
+    peerDependencies:
+      eslint: '>=6.7.0'
+    dependencies:
+      eslint: 8.32.0
     dev: false
 
   /eslint-plugin-jsx-a11y/6.7.1_eslint@8.32.0:
