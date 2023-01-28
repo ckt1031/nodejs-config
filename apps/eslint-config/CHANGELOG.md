@@ -1,5 +1,11 @@
 # @ckt1031/eslint-config
 
+## 0.0.11
+
+### Patch Changes
+
+- [#13](https://github.com/ckt1031/nodejs-config/pull/13) [`ae5454a`](https://github.com/ckt1031/nodejs-config/commit/ae5454aca1a9776343e58ac63fd40493c069c059) Thanks [@ckt1031](https://github.com/ckt1031)! - Remove `eslint-plugin-diff`
+
 ## 0.0.10
 
 ### Patch Changes
