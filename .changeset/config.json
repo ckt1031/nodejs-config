@@ -7,9 +7,9 @@
     }
   ],
   "commit": false,
-  "fixed": [],
+  "fixed": [["@ckt1031/eslint-config", "@ckt1031/tsconfig"]],
   "linked": [],
-  "access": "restricted",
+  "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": []
