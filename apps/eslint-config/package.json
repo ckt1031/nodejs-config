@@ -1,6 +1,6 @@
 {
   "name": "@ckt1031/eslint-config",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "ESLint config for ckt1031, ensure the consistency of code quality.",
   "files": [
     "default.js",

@@ -1,5 +1,11 @@
 # @ckt1031/eslint-config
 
+## 0.0.10
+
+### Patch Changes
+
+- [#11](https://github.com/ckt1031/nodejs-config/pull/11) [`6a26da5`](https://github.com/ckt1031/nodejs-config/commit/6a26da535e9c5dfcf96c212a8fb3ae5e47ca258e) Thanks [@ckt1031](https://github.com/ckt1031)! - Bump `eslint-plugin-simple-import-sort` to `10.0.0`
+
 ## 0.0.8
 
 ### Patch Changes
