@@ -1,3 +1,5 @@
+/* eslint-disable sort-keys-fix/sort-keys-fix */
+
 const config = {
   env: {
     es6: true,
@@ -12,7 +14,6 @@ const config = {
     },
   },
   extends: [
-    'plugin:diff/diff',
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:regexp/recommended',
