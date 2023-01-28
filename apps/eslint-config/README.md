@@ -13,7 +13,6 @@ Eslint configuration for [ckt1031](https://github.com/ckt1031). The rules are ve
 - [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) - Enforce best practices for JavaScript promises
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) - React specific linting rules for ESLint
 - [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) - Monorepo for all the tooling which enables ESLint to support TypeScript
-- [eslint-plugin-diff](https://www.npmjs.com/package/eslint-plugin-diff) - ESLint plugin for diff files
 
 ## Installation
 
