@@ -1,17 +1,8 @@
-/* eslint-disable sort-keys-fix/sort-keys-fix */
-
 const config = {
   env: {
+    browser: true,
     es6: true,
     node: true,
-    browser: true,
-  },
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaVersion: 'latest',
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
   extends: [
     'eslint:recommended',
@@ -24,6 +15,13 @@ const config = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
   ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+  },
   plugins: [
     'regexp',
     'jsx-a11y',
@@ -31,13 +29,11 @@ const config = {
     'react',
     'sonarjs',
     'unicorn',
-    'sort-keys-fix',
     '@typescript-eslint',
     'simple-import-sort',
     'write-good-comments',
   ],
   rules: {
-    semi: [2, 'always'],
     quotes: [
       2,
       'single',
@@ -47,10 +43,9 @@ const config = {
     ],
     // Eslint
     'prefer-arrow-callback': 2,
+    semi: [2, 'always'],
     // Write good comments
     'write-good-comments/write-good-comments': 1,
-    // Sort keys
-    'sort-keys-fix/sort-keys-fix': 1,
     // Import sorting
     'simple-import-sort/imports': 2,
     'simple-import-sort/exports': 2,
