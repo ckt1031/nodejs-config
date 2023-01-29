@@ -45,6 +45,8 @@ const config = {
         avoidEscape: true,
       },
     ],
+    // Eslint
+    'prefer-arrow-callback': 2,
     // Write good comments
     'write-good-comments/write-good-comments': 1,
     // Sort keys
