@@ -1,5 +1,11 @@
 # @ckt1031/tsconfig
 
+## 0.0.12
+
+### Patch Changes
+
+- [#18](https://github.com/ckt1031/nodejs-config/pull/18) [`8a6dc7d`](https://github.com/ckt1031/nodejs-config/commit/8a6dc7dc02f2c67ecc9730c8e1a001af2940178c) Thanks [@ckt1031](https://github.com/ckt1031)! - Fix README typo
+
 ## 0.0.11
 
 ## 0.0.10

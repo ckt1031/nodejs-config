@@ -1,5 +1,13 @@
 # @ckt1031/eslint-config
 
+## 0.0.12
+
+### Patch Changes
+
+- [#18](https://github.com/ckt1031/nodejs-config/pull/18) [`b5cbf1a`](https://github.com/ckt1031/nodejs-config/commit/b5cbf1aaa19a1f6189257ad4a9f17a2ea0d415f4) Thanks [@ckt1031](https://github.com/ckt1031)! - Remove `sort-keys-fix`
+
+- [#18](https://github.com/ckt1031/nodejs-config/pull/18) [`76bde1e`](https://github.com/ckt1031/nodejs-config/commit/76bde1e25940760784be75dde6baaa840bd691c1) Thanks [@ckt1031](https://github.com/ckt1031)! - Add `prefer-arrow-callback`
+
 ## 0.0.11
 
 ### Patch Changes
