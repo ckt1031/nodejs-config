@@ -1,6 +1,6 @@
 # @ckt1031/tsconfig
 
-[![Version](https://img.shields.io/npm/v/@ckt1031/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@ckt1031/eslint-config)
+[![Version](https://img.shields.io/npm/v/@ckt1031/tsconfig.svg?style=flat-square)](https://www.npmjs.com/package/@ckt1031/tsconfig)
 
 Typescript configuration for [ckt1031](https://github.com/ckt1031). The rules are very strict, **it is not recommended** to use it directly.
 
