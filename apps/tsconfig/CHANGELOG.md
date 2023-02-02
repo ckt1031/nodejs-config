@@ -1,5 +1,11 @@
 # @ckt1031/tsconfig
 
+## 0.0.13
+
+### Patch Changes
+
+- [#23](https://github.com/ckt1031/nodejs-config/pull/23) [`7528704`](https://github.com/ckt1031/nodejs-config/commit/75287041ac6ae0c55b645ff821e83e4cac60a453) Thanks [@ckt1031](https://github.com/ckt1031)! - Bump `typescript` to 4.9.5
+
 ## 0.0.12
 
 ### Patch Changes

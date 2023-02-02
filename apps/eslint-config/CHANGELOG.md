@@ -1,5 +1,14 @@
 # @ckt1031/eslint-config
 
+## 0.0.13
+
+### Patch Changes
+
+- [#23](https://github.com/ckt1031/nodejs-config/pull/23) [`e52e01b`](https://github.com/ckt1031/nodejs-config/commit/e52e01b77b351fc4876e6c1604de03e0cf750458) Thanks [@ckt1031](https://github.com/ckt1031)! - Add new `typescript-strict` config
+
+- [#23](https://github.com/ckt1031/nodejs-config/pull/23) [`bbfdd53`](https://github.com/ckt1031/nodejs-config/commit/bbfdd53437013dd6574fd8979ba8ffe4c6d9c912) Thanks [@ckt1031](https://github.com/ckt1031)! - Bump `eslint-plugin-tailwindcss` to 3.8.3
+  Bump `typescript-eslint` to 5.50.0
+
 ## 0.0.12
 
 ### Patch Changes
