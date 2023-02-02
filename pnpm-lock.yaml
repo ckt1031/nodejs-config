@@ -16,10 +16,13 @@ importers:
 
   apps/eslint-config:
     specifiers:
+      '@types/deepmerge': 2.2.0
       '@typescript-eslint/eslint-plugin': 5.50.0
       '@typescript-eslint/parser': 5.50.0
+      deepmerge: 4.3.0
       eslint: 8.33.0
       eslint-plugin-autofix: 1.1.0
+      eslint-plugin-deprecation: 1.3.3
       eslint-plugin-jsx-a11y: 6.7.1
       eslint-plugin-promise: 6.1.1
       eslint-plugin-react: 7.32.2
@@ -34,7 +37,9 @@ importers:
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
       '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
+      deepmerge: 4.3.0
       eslint-plugin-autofix: 1.1.0_eslint@8.33.0
+      eslint-plugin-deprecation: 1.3.3_4vsywjlpuriuw3tl5oq6zy5a64
       eslint-plugin-jsx-a11y: 6.7.1_eslint@8.33.0
       eslint-plugin-promise: 6.1.1_eslint@8.33.0
       eslint-plugin-react: 7.32.2_eslint@8.33.0
@@ -46,6 +51,7 @@ importers:
       eslint-plugin-unicorn: 45.0.2_eslint@8.33.0
       eslint-plugin-write-good-comments: 0.1.4_mbtr3ald3hcqvtwfvnckguo3q4
     devDependencies:
+      '@types/deepmerge': 2.2.0
       eslint: 8.33.0
       typescript: 4.9.5
 
@@ -369,6 +375,13 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
+  /@types/deepmerge/2.2.0:
+    resolution: {integrity: sha512-FEQYDHh6+Q+QXKSrIY46m+/lAmAj/bk4KpLaam+hArmzaVpMBHLcfwOH2Q2UOkWM7XsdY9PmZpGyPAjh/JRGhQ==}
+    deprecated: This is a stub types definition. deepmerge provides its own type definitions, so you do not need this installed.
+    dependencies:
+      deepmerge: 4.3.0
+    dev: true
+
   /@types/is-ci/3.0.0:
     resolution: {integrity: sha512-Q0Op0hdWbYd1iahB+IFNQcWXFq4O0Q5MwQP7uN0souuQ4rPg1vEYcnIOfr1gY+M+6rc8FGoRaBO1mOOvL29sEQ==}
     dependencies:
@@ -429,6 +442,19 @@ packages:
       typescript: 4.9.5
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@typescript-eslint/experimental-utils/5.50.0_4vsywjlpuriuw3tl5oq6zy5a64:
+    resolution: {integrity: sha512-gZIhzNRivy0RVqcxjKnQ+ipGc0qolilhBeNmvH+Dvu7Vymug+IfiYxTj2zM7mIlHsw6Q5aH7L7WmuTE3tZyzag==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+    dependencies:
+      '@typescript-eslint/utils': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
+      eslint: 8.33.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: false
 
   /@typescript-eslint/parser/5.50.0_4vsywjlpuriuw3tl5oq6zy5a64:
@@ -978,6 +1004,10 @@ packages:
   /deep-is/0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
 
+  /deepmerge/4.3.0:
+    resolution: {integrity: sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og==}
+    engines: {node: '>=0.10.0'}
+
   /defaults/1.0.4:
     resolution: {integrity: sha512-eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==}
     dependencies:
@@ -1211,6 +1241,21 @@ packages:
       esutils: 2.0.3
       lodash: 4.17.21
       string-similarity: 4.0.4
+    dev: false
+
+  /eslint-plugin-deprecation/1.3.3_4vsywjlpuriuw3tl5oq6zy5a64:
+    resolution: {integrity: sha512-Bbkv6ZN2cCthVXz/oZKPwsSY5S/CbgTLRG4Q2s2gpPpgNsT0uJ0dB5oLNiWzFYY8AgKX4ULxXFG1l/rDav9QFA==}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+      typescript: ^3.7.5 || ^4.0.0
+    dependencies:
+      '@typescript-eslint/experimental-utils': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
+      eslint: 8.33.0
+      tslib: 2.5.0
+      tsutils: 3.21.0_typescript@4.9.5
+      typescript: 4.9.5
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /eslint-plugin-import/2.27.5_ufewo3pl5nnmz6lltvjrdi2hii:
@@ -3129,6 +3174,10 @@ packages:
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
+    dev: false
+
+  /tslib/2.5.0:
+    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
     dev: false
 
   /tsutils/3.21.0_typescript@4.9.5:
