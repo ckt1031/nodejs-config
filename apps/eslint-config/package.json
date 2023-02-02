@@ -4,6 +4,7 @@
   "description": "ESLint config for ckt1031, ensure the consistency of code quality.",
   "files": [
     "default.js",
+    "typescript-strict.js",
     "README.md",
     "LICENSE",
     "package.json"
@@ -24,6 +25,7 @@
     "url": "https://github.com/ckt1031/nodejs-config/issues"
   },
   "devDependencies": {
+    "@types/deepmerge": "2.2.0",
     "eslint": "8.33.0",
     "typescript": "4.9.5"
   },
@@ -33,7 +35,9 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.50.0",
     "@typescript-eslint/parser": "5.50.0",
+    "deepmerge": "4.3.0",
     "eslint-plugin-autofix": "1.1.0",
+    "eslint-plugin-deprecation": "1.3.3",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-react": "7.32.2",
