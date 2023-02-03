@@ -33,7 +33,7 @@ importers:
       eslint-plugin-promise: 6.1.1
       eslint-plugin-react: 7.32.2
       eslint-plugin-regexp: 1.12.0
-      eslint-plugin-security: 1.7.0
+      eslint-plugin-security: 1.7.1
       eslint-plugin-simple-import-sort: 10.0.0
       eslint-plugin-sonarjs: 0.18.0
       eslint-plugin-tailwindcss: 3.8.3
@@ -51,7 +51,7 @@ importers:
       eslint-plugin-promise: 6.1.1_eslint@8.33.0
       eslint-plugin-react: 7.32.2_eslint@8.33.0
       eslint-plugin-regexp: 1.12.0_eslint@8.33.0
-      eslint-plugin-security: 1.7.0
+      eslint-plugin-security: 1.7.1
       eslint-plugin-simple-import-sort: 10.0.0_eslint@8.33.0
       eslint-plugin-sonarjs: 0.18.0_eslint@8.33.0
       eslint-plugin-tailwindcss: 3.8.3_tailwindcss@3.2.4
@@ -1641,8 +1641,8 @@ packages:
       scslre: 0.1.6
     dev: false
 
-  /eslint-plugin-security/1.7.0:
-    resolution: {integrity: sha512-+ahcCh7M5w7fdFaNccaChBGq8nd3Wa+XvGJS+hY74kvrMhG4EuLbljRIjilOqh1iDMW/EckB1oOWmiVIYlVACQ==}
+  /eslint-plugin-security/1.7.1:
+    resolution: {integrity: sha512-sMStceig8AFglhhT2LqlU5r+/fn9OwsA72O5bBuQVTssPCdQAOQzL+oMn/ZcpeUY6KcNfLJArgcrsSULNjYYdQ==}
     dependencies:
       safe-regex: 2.1.1
     dev: false
