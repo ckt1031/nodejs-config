@@ -24,6 +24,9 @@
   "bugs": {
     "url": "https://github.com/ckt1031/nodejs-config/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "typescript": "4.9.5"
   },
