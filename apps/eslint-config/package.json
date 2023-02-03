@@ -2,9 +2,12 @@
   "name": "@ckt1031/eslint-config",
   "version": "0.0.13",
   "description": "ESLint config for ckt1031, ensure the consistency of code quality.",
+  "scripts": {
+    "build": "tsup src --format cjs,esm --minify",
+    "lint": "tsc"
+  },
   "files": [
-    "default.js",
-    "typescript-strict.js",
+    "dist",
     "README.md",
     "LICENSE",
     "package.json"
@@ -25,8 +28,11 @@
     "url": "https://github.com/ckt1031/nodejs-config/issues"
   },
   "devDependencies": {
+    "@ckt1031/tsconfig": "workspace:*",
     "@types/deepmerge": "2.2.0",
+    "@types/eslint": "8.21.0",
     "eslint": "8.33.0",
+    "tsup": "6.5.0",
     "typescript": "4.9.5"
   },
   "peerDependencies": {
@@ -48,5 +54,19 @@
     "eslint-plugin-tailwindcss": "3.8.3",
     "eslint-plugin-unicorn": "45.0.2",
     "eslint-plugin-write-good-comments": "0.1.4"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/default.mjs",
+      "require": "./dist/default.js"
+    },
+    "./default": {
+      "import": "./dist/default.mjs",
+      "require": "./dist/default.js"
+    },
+    "./typescript-strict": {
+      "import": "./dist/typescript-strict.mjs",
+      "require": "./dist/typescript-strict.js"
+    }
   }
 }

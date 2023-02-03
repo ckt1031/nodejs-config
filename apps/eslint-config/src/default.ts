@@ -1,4 +1,6 @@
-const config = {
+import type { Linter } from 'eslint';
+
+const config: Linter.Config = {
   env: {
     browser: true,
     es6: true,
@@ -63,12 +65,12 @@ const config = {
     'unicorn/prevent-abbreviations': 0,
     'unicorn/no-await-expression-member': 0,
     // Typescript
+    '@typescript-eslint/no-namespace': 0,
     '@typescript-eslint/no-misused-promises': 0,
     '@typescript-eslint/no-unused-vars': [2],
     '@typescript-eslint/no-unsafe-call': 0,
     '@typescript-eslint/no-unsafe-assignment': 0,
     '@typescript-eslint/no-unsafe-member-access': 0,
-    '@typescript-eslint/no-namespace': 0,
   },
   settings: {
     react: {
@@ -77,13 +79,13 @@ const config = {
   },
   overrides: [
     {
-      files: ['*.js'],
+      files: ['*.js, *.jsx, *.cjs'],
       rules: {
         '@typescript-eslint/no-var-requires': 'off',
       },
     },
     {
-      files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
+      files: ['*.js', '*.jsx', '*.ts', '*.tsx', '*.cjs', '*.mjs', '*.mts', '*.cts'],
       rules: {
         'simple-import-sort/imports': [
           'error',
@@ -103,4 +105,4 @@ const config = {
   ],
 };
 
-module.exports = config;
+export default config;
