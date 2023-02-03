@@ -21,6 +21,9 @@
     "eslint-config",
     "ckt1031"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/ckt1031/)",
   "license": "MIT",
   "homepage": "https://github.com/ckt1031/nodejs-config#readme",
