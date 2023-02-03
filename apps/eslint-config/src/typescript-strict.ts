@@ -1,7 +1,9 @@
-const merge = require('deepmerge');
-const defaultConfig = require('./default');
+import merge from 'deepmerge';
+import type { Linter } from 'eslint';
 
-const config = {
+import defaultConfig from './default';
+
+const config: Linter.Config = {
   parser: '@typescript-eslint/parser',
   extends: [
     'plugin:@typescript-eslint/strict',
@@ -27,4 +29,4 @@ const config = {
   },
 };
 
-module.exports = merge(defaultConfig, config);
+export default merge(defaultConfig, config);

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "moduleResolution": "node"
+  },
+  "extends": "@ckt1031/tsconfig/base.json",
+  "exclude": ["node_modules", "dist"],
+  "include": ["src"]
+}
