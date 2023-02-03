@@ -1,4 +1,4 @@
 {
-  "extends": ["@ckt1031/eslint-config/default"],
-  "ignorePatterns": ["node_modules"]
+  "extends": ["@ckt1031/eslint-config"],
+  "ignorePatterns": ["node_modules", "dist"]
 }

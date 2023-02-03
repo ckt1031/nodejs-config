@@ -79,9 +79,9 @@ const config: Linter.Config = {
   },
   overrides: [
     {
-      files: ['*.js, *.jsx, *.cjs'],
+      files: ['*.js', '*.jsx', '*.cjs'],
       rules: {
-        '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/no-var-requires': 0,
       },
     },
     {
