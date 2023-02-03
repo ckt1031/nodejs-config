@@ -1,5 +1,11 @@
 # @ckt1031/tsconfig
 
+## 0.0.14
+
+### Patch Changes
+
+- [#26](https://github.com/ckt1031/nodejs-config/pull/26) [`b15de96`](https://github.com/ckt1031/nodejs-config/commit/b15de96ca6f844ebecab78a3442ea16837ca8720) Thanks [@ckt1031](https://github.com/ckt1031)! - Add `publishConfig.access` field to make sure package is published as public
+
 ## 0.0.13
 
 ### Patch Changes

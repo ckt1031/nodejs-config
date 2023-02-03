@@ -1,6 +1,6 @@
 {
   "name": "@ckt1031/tsconfig",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Typescript config for ckt1031, ensure the consistency of code quality.",
   "files": [
     "base.json",

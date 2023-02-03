@@ -1,5 +1,19 @@
 # @ckt1031/eslint-config
 
+## 0.0.14
+
+### Patch Changes
+
+- [#26](https://github.com/ckt1031/nodejs-config/pull/26) [`9d798cc`](https://github.com/ckt1031/nodejs-config/commit/9d798ccb2633ebd8aae50e051677e86afb23f714) Thanks [@ckt1031](https://github.com/ckt1031)! - Update README.md
+
+- [#26](https://github.com/ckt1031/nodejs-config/pull/26) [`f2695d9`](https://github.com/ckt1031/nodejs-config/commit/f2695d9f1e804c679a6cfc8c20140f5164d23bcb) Thanks [@ckt1031](https://github.com/ckt1031)! - Bump `eslint-plugin-security` to 1.7.1
+
+- [#26](https://github.com/ckt1031/nodejs-config/pull/26) [`244b3a5`](https://github.com/ckt1031/nodejs-config/commit/244b3a5a9c9de872083e9550bd83da7febabad45) Thanks [@ckt1031](https://github.com/ckt1031)! - Use typescript for config files
+
+- [#26](https://github.com/ckt1031/nodejs-config/pull/26) [`55bf0e7`](https://github.com/ckt1031/nodejs-config/commit/55bf0e74c7418d39566f9d67908cfbd323266d2c) Thanks [@ckt1031](https://github.com/ckt1031)! - Fix cjs building issue, use `rollup` instead
+
+- [#26](https://github.com/ckt1031/nodejs-config/pull/26) [`b15de96`](https://github.com/ckt1031/nodejs-config/commit/b15de96ca6f844ebecab78a3442ea16837ca8720) Thanks [@ckt1031](https://github.com/ckt1031)! - Add `publishConfig.access` field to make sure package is published as public
+
 ## 0.0.13
 
 ### Patch Changes
