@@ -3,7 +3,7 @@
   "version": "0.0.13",
   "description": "The official ESLint configuration for ckt1031 projects",
   "scripts": {
-    "build": "tsup src --format cjs,esm --minify",
+    "build": "rollup -c",
     "lint": "tsc"
   },
   "files": [
@@ -32,10 +32,16 @@
   },
   "devDependencies": {
     "@ckt1031/tsconfig": "workspace:*",
+    "@rollup/plugin-commonjs": "24.0.1",
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-typescript": "11.0.0",
     "@types/deepmerge": "2.2.0",
     "@types/eslint": "8.21.0",
+    "@types/node": "18.11.18",
+    "@types/rollup-plugin-auto-external": "2.0.2",
     "eslint": "8.33.0",
-    "tsup": "6.5.0",
+    "rollup": "3.12.1",
+    "rollup-plugin-auto-external": "2.0.0",
     "typescript": "4.9.5"
   },
   "peerDependencies": {
@@ -61,15 +67,15 @@
   "exports": {
     ".": {
       "import": "./dist/default.mjs",
-      "require": "./dist/default.js"
+      "require": "./dist/default.cjs"
     },
     "./default": {
       "import": "./dist/default.mjs",
-      "require": "./dist/default.js"
+      "require": "./dist/default.cjs"
     },
     "./typescript-strict": {
       "import": "./dist/typescript-strict.mjs",
-      "require": "./dist/typescript-strict.js"
+      "require": "./dist/typescript-strict.cjs"
     }
   }
 }
