@@ -2,25 +2,29 @@
 
 [![Version](https://img.shields.io/npm/v/@ckt1031/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@ckt1031/eslint-config)
 
-Eslint configuration for [ckt1031](https://github.com/ckt1031). The rules are very strict, **it is not recommended** to use it directly if you are not familiar with eslint, but you can use it as a reference.
+Welcome to the `@ckt1031/eslint-config`! This is the official ESLint configuration for [ckt1031](https://github.com/ckt1031) projects, enforcing strict rules and best practices for a clean and organized codebase.
 
 ## Rules and plugins
 
+This configuration includes a variety of rules and plugins, such as:
+
 (All rules are enabled by default)
 
-- [eslint-plugin-simple-import-sort](https://www.npmjs.com/package/eslint-plugin-simple-import-sort) - Enforce a simple convention for import sorting
-- [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) - Various awesome ESLint rules
-- [eslint-plugin-tailwindcss](https://www.npmjs.com/package/eslint-plugin-tailwindcss) - ESLint plugin for Tailwind CSS
-- [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs) - ESLint rules for SonarJS
-- [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) - Enforce best practices for JavaScript promises
-- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) - React specific linting rules for ESLint
-- [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) - Monorepo for all the tooling which enables ESLint to support TypeScript
+- [eslint-plugin-simple-import-sort](https://www.npmjs.com/package/eslint-plugin-simple-import-sort) - for import sorting simplicity
+- [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) - for various awesome ESLint rules
+- [eslint-plugin-tailwindcss](https://www.npmjs.com/package/eslint-plugin-tailwindcss) - for Tailwind CSS linting
+- [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs) - for SonarJS rules
+- [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) - for promise best practices
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) - for React specific linting
+- [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) - for TypeScript support.
 
-(Typescript Strict only)
+(Stricter TypeScript setup)
 
-- [eslint-plugin-deprecation](https://www.npmjs.com/package/eslint-plugin-deprecation) - ESLint plugin to detect deprecated code
+- [eslint-plugin-deprecation](https://www.npmjs.com/package/eslint-plugin-deprecation) - for detecting deprecated code
 
 ## Installation
+
+To start using `@ckt1031/eslint-config`, simply run:
 
 ```bash
 npm install --save-dev @ckt1031/eslint-config
@@ -30,7 +34,7 @@ npm install --save-dev @ckt1031/eslint-config
 
 Add the following code to your `.eslintrc.js` or `.eslintrc.json` file:
 
-(Default)
+(Default, TypeScript is also supported)
 
 ```js
 module.exports = {
@@ -50,6 +54,8 @@ module.exports = {
   },
 };
 ```
+
+And that's it! You're now ready to use
 
 ## License
 
