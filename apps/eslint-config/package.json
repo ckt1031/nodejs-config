@@ -1,6 +1,6 @@
 {
   "name": "@ckt1031/eslint-config",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "The official ESLint configuration for ckt1031 projects",
   "scripts": {
     "build": "rollup -c",
