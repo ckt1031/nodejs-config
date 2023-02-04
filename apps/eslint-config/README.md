@@ -57,6 +57,14 @@ module.exports = {
 
 And that's it! You're now ready to use
 
+## Compatibility
+
+This package is compatible with the following dependencies and Node.js versions:
+
+- ESLint: 8.0 or later (Before major version 9)
+- TypeScript: 4.0 or later (Before major version 5)
+- Node.js: Any version that supports dependencies above
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
