@@ -65,6 +65,8 @@ This package is compatible with the following dependencies and Node.js versions:
 - TypeScript: 4.0 or later (Before major version 5)
 - Node.js: Any version that supports dependencies above
 
+**Updating to the latest version of this package is recommended for the best compatibility.**
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
