@@ -1,5 +1,13 @@
 # @ckt1031/tsconfig
 
+## 0.0.15
+
+### Patch Changes
+
+- [#28](https://github.com/ckt1031/nodejs-config/pull/28) [`c9db86f`](https://github.com/ckt1031/nodejs-config/commit/c9db86f9b9e4ce3bec8f215a740afd8dbc5915db) Thanks [@ckt1031](https://github.com/ckt1031)! - Update readme
+
+- [#28](https://github.com/ckt1031/nodejs-config/pull/28) [`5d31b97`](https://github.com/ckt1031/nodejs-config/commit/5d31b97d79457e0dc5d8c6ffc55455458715a551) Thanks [@ckt1031](https://github.com/ckt1031)! - Refactor readme, added Compatibility block
+
 ## 0.0.14
 
 ### Patch Changes

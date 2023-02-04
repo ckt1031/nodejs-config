@@ -1,5 +1,13 @@
 # @ckt1031/eslint-config
 
+## 0.0.15
+
+### Patch Changes
+
+- [#28](https://github.com/ckt1031/nodejs-config/pull/28) [`c9db86f`](https://github.com/ckt1031/nodejs-config/commit/c9db86f9b9e4ce3bec8f215a740afd8dbc5915db) Thanks [@ckt1031](https://github.com/ckt1031)! - Update readme
+
+- [#28](https://github.com/ckt1031/nodejs-config/pull/28) [`71826c2`](https://github.com/ckt1031/nodejs-config/commit/71826c225af97a0a0e6415402e1ef844c51edf1c) Thanks [@ckt1031](https://github.com/ckt1031)! - Bump `rollup` to 3.13.0
+
 ## 0.0.14
 
 ### Patch Changes
