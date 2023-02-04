@@ -6,6 +6,7 @@ Sharable config for node.js from [ckt1031](https://github.com/ckt1031)
 
 - [@ckt1031/eslint-config](apps/eslint-config/) - ESLint config
 - [@ckt1031/tsconfig](apps/tsconfig/) - TypeScript config
+- [@ckt1031/prettier-config](apps/prettier-config/) - Prettier config
 
 ## Strict Configuration
 
