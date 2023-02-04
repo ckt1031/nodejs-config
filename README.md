@@ -1,8 +1,15 @@
-# @ckt1031/node-config
+# node-config
 
-Sharable config for node.js from ckt1031
+Sharable config for node.js from [ckt1031](https://github.com/ckt1031)
 
-**Please make sure what you are doing before using my node.js configurations, this might not fit your demand and situation!**
+## Apps
+
+- [@ckt1031/eslint-config](apps/eslint-config/) - ESLint config
+- [@ckt1031/tsconfig](apps/tsconfig/) - TypeScript config
+
+## Strict Configuration
+
+Please be advised that this application has strict configurations. Adopt these configurations carefully and only if they meet the requirements of your project. It is recommended to thoroughly review and understand the configurations before implementation.
 
 ## License
 
