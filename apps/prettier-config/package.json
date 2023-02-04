@@ -1,0 +1,38 @@
+{
+  "name": "@ckt1031/prettier-config",
+  "version": "0.0.14",
+  "description": "The official Prettier configuration for ckt1031 projects",
+  "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/ckt1031/)",
+  "homepage": "https://github.com/ckt1031/nodejs-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckt1031/nodejs-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ckt1031/nodejs-config/issues"
+  },
+  "main": "index.json",
+  "files": [
+    "index.json",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "prettier-plugin-package-perfection": "1.1.0",
+    "prettier-plugin-prisma": "4.9.0",
+    "prettier-plugin-sort-json": "1.0.0",
+    "prettier-plugin-tailwindcss": "0.2.2"
+  },
+  "peerDependencies": {
+    "prettier": "2.x"
+  },
+  "keywords": [
+    "ckt1031",
+    "prettier",
+    "prettier-config"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

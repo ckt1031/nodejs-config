@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "arrowParens": "avoid",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "jsonRecursiveSort": true,
+  "plugins": [
+    "prettier-plugin-prisma",
+    "prettier-plugin-sort-json",
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-package-perfection"
+  ],
+  "printWidth": 100,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all"
+}
