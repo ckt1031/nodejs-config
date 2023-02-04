@@ -2,51 +2,22 @@
   "name": "@ckt1031/eslint-config",
   "version": "0.0.14",
   "description": "The official ESLint configuration for ckt1031 projects",
-  "scripts": {
-    "build": "rollup -c",
-    "lint": "tsc"
-  },
-  "files": [
-    "dist",
-    "README.md",
-    "LICENSE",
-    "package.json"
-  ],
+  "license": "MIT",
+  "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/ckt1031/)",
+  "homepage": "https://github.com/ckt1031/nodejs-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ckt1031/nodejs-config.git"
   },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "ckt1031"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/ckt1031/)",
-  "license": "MIT",
-  "homepage": "https://github.com/ckt1031/nodejs-config#readme",
   "bugs": {
     "url": "https://github.com/ckt1031/nodejs-config/issues"
   },
-  "devDependencies": {
-    "@ckt1031/tsconfig": "workspace:*",
-    "@rollup/plugin-commonjs": "24.0.1",
-    "@rollup/plugin-node-resolve": "15.0.1",
-    "@rollup/plugin-typescript": "11.0.0",
-    "@types/deepmerge": "2.2.0",
-    "@types/eslint": "8.21.0",
-    "@types/node": "18.11.18",
-    "@types/rollup-plugin-auto-external": "2.0.2",
-    "eslint": "8.33.0",
-    "rollup": "3.13.0",
-    "rollup-plugin-auto-external": "2.0.0",
-    "typescript": "4.9.5"
-  },
-  "peerDependencies": {
-    "eslint": "8.x",
-    "typescript": "4.x"
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "tsc"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.50.0",
@@ -64,6 +35,32 @@
     "eslint-plugin-tailwindcss": "3.8.3",
     "eslint-plugin-unicorn": "45.0.2",
     "eslint-plugin-write-good-comments": "0.1.4"
+  },
+  "peerDependencies": {
+    "eslint": "8.x",
+    "typescript": "4.x"
+  },
+  "devDependencies": {
+    "@ckt1031/tsconfig": "workspace:*",
+    "@rollup/plugin-commonjs": "24.0.1",
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-typescript": "11.0.0",
+    "@types/deepmerge": "2.2.0",
+    "@types/eslint": "8.21.0",
+    "@types/node": "18.11.18",
+    "@types/rollup-plugin-auto-external": "2.0.2",
+    "eslint": "8.33.0",
+    "rollup": "3.13.0",
+    "rollup-plugin-auto-external": "2.0.0",
+    "typescript": "4.9.5"
+  },
+  "keywords": [
+    "ckt1031",
+    "eslint",
+    "eslint-config"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
   "exports": {
     ".": {
