@@ -16,7 +16,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c --silent",
     "lint": "tsc"
   },
   "dependencies": {
