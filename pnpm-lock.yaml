@@ -28,7 +28,7 @@ importers:
       '@rollup/plugin-typescript': 11.0.0
       '@types/deepmerge': 2.2.0
       '@types/eslint': 8.21.0
-      '@types/node': 18.11.18
+      '@types/node': 18.11.19
       '@types/rollup-plugin-auto-external': 2.0.2
       '@typescript-eslint/eslint-plugin': 5.50.0
       '@typescript-eslint/parser': 5.50.0
@@ -72,7 +72,7 @@ importers:
       '@rollup/plugin-typescript': 11.0.0_46fwwqbvuxlme2l3loxirmrppi
       '@types/deepmerge': 2.2.0
       '@types/eslint': 8.21.0
-      '@types/node': 18.11.18
+      '@types/node': 18.11.19
       '@types/rollup-plugin-auto-external': 2.0.2
       eslint: 8.33.0
       rollup: 3.13.0
@@ -530,8 +530,8 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: false
 
-  /@types/node/18.11.18:
-    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+  /@types/node/18.11.19:
+    resolution: {integrity: sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
