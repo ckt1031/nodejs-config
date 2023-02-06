@@ -1,6 +1,6 @@
-# node-config
+# Node.js Config
 
-Sharable config for node.js from [ckt1031](https://github.com/ckt1031)
+Sharable miscellaneous config for node.js from [ckt1031](https://github.com/ckt1031)
 
 ## Apps
 
