@@ -38,7 +38,8 @@ Add the following code to your `.eslintrc.js` or `.eslintrc.json` file:
 
 ```js
 module.exports = {
-  extends: '@ckt1031/eslint-config/default',
+  extends: ['@ckt1031'],
+  // extends: ['@ckt1031/eslint-config/default'], // if you want to use named config
 };
 ```
 
@@ -46,7 +47,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: '@ckt1031/eslint-config/typescript-strict',
+  extends: ['@ckt1031/eslint-config/typescript-strict'],
   parserOptions: {
     ecmaVersion: 'latest',
     project: './tsconfig.json',
