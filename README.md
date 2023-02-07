@@ -1,6 +1,6 @@
 # Node.js Config
 
-Sharable miscellaneous config for node.js from [ckt1031](https://github.com/ckt1031)
+This is a monorepo to share miscellaneous Node.js config for [ckt1031](https://github.com/ckt1031), monorepo is managed by [PNPM](https://pnpm.io/) and versioned by [Changeset](https://github.com/changesets/changesets).
 
 ## Apps
 
