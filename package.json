@@ -2,7 +2,7 @@
   "private": true,
   "name": "@ckt1031/node-config",
   "version": "0.0.0",
-  "description": "Sharable config for node.js from ckt1031",
+  "description": "Sharable Node.js miscellaneous config for ckt1031",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -F @ckt1031/* build",
