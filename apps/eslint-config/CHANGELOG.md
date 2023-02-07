@@ -1,5 +1,13 @@
 # @ckt1031/eslint-config
 
+## 0.0.16
+
+### Patch Changes
+
+- [#32](https://github.com/ckt1031/nodejs-config/pull/32) [`70591c6`](https://github.com/ckt1031/nodejs-config/commit/70591c6a01009cb7fb2d9cf165e51954bb06b9c5) Thanks [@ckt1031](https://github.com/ckt1031)! - Add abbreviated config export for default one
+
+- [#32](https://github.com/ckt1031/nodejs-config/pull/32) [`3e1c507`](https://github.com/ckt1031/nodejs-config/commit/3e1c507e793cc56a3a881a15927fa6f0625e4208) Thanks [@ckt1031](https://github.com/ckt1031)! - Bump @types/node, @typescript-eslint to the latest (18.13.0, 5.51.0)
+
 ## 0.0.15
 
 ### Patch Changes
