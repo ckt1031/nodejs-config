@@ -2,7 +2,27 @@
 
 [![Version](https://img.shields.io/npm/v/@ckt1031/prettier-config.svg?style=flat-square)](https://www.npmjs.com/package/@ckt1031/prettier-config)
 
-Welcome to the `@ckt1031/prettier-config`! Strict Prettier configuration for [ckt1031](https://github.com/ckt1031). Use with caution.
+Welcome to the `@ckt1031/prettier-config`! This is the Prettier configuration for [ckt1031](https://github.com/ckt1031).
+
+## Prettier Plugins
+
+In addition to the base Prettier configuration, this package also includes the following plugins:
+
+### [prettier-plugin-package-perfection](https://npmjs.com/package/prettier-plugin-package-perfection)
+
+This plugin makes sure your `package.json` file is correctly formatted and includes all necessary information.
+
+### [prettier-plugin-prisma](https://npmjs.com/package/prettier-plugin-prisma)
+
+This plugin makes sure your Prisma schema files are correctly formatted, making it easier to read and maintain.
+
+### [prettier-plugin-sort-json](https://npmjs.com/package/prettier-plugin-sort-json)
+
+This plugin sorts the properties of your JSON files, ensuring consistent formatting across your codebase.
+
+### [prettier-plugin-tailwindcss](https://npmjs.com/package/prettier-plugin-tailwindcss)
+
+This plugin makes sure your Tailwind CSS code is correctly formatted and adheres to best practices, helping you keep your codebase clean and maintainable.
 
 ## Installation
 
