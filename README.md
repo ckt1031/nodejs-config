@@ -1,5 +1,7 @@
 # Node.js Config
 
+[![Linting](https://github.com/ckt1031/nodejs-config/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/ckt1031/nodejs-config/actions/workflows/lint.yml)
+
 This is a monorepo to share miscellaneous Node.js config for [ckt1031](https://github.com/ckt1031), monorepo is managed by [PNPM](https://pnpm.io/) and versioned by [Changeset](https://github.com/changesets/changesets).
 
 ## Apps
@@ -10,7 +12,7 @@ This is a monorepo to share miscellaneous Node.js config for [ckt1031](https://g
 
 ## Strict Configuration
 
-Please be advised that this application has strict configurations. Adopt these configurations carefully and only if they meet the requirements of your project. It is recommended to thoroughly review and understand the configurations before implementation.
+Please be advised that this application has **strict configurations**. **_Adopt these configurations carefully_** and only if they meet the requirements of your project. It is recommended to thoroughly review and understand the configurations before implementation.
 
 ## License
 
