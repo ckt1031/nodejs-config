@@ -9,7 +9,7 @@
     }
   ],
   "commit": false,
-  "fixed": [["@ckt1031/eslint-config", "@ckt1031/tsconfig"]],
+  "fixed": [["@ckt1031/eslint-config", "@ckt1031/tsconfig", "@ckt1031/prettier-config"]],
   "ignore": [],
   "linked": [],
   "updateInternalDependencies": "patch"
