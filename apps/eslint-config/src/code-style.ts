@@ -3,7 +3,7 @@ import type { Linter } from 'eslint';
 
 import defaultConfig from './default';
 
-const config: Linter.Config = {
+export const strictCodeStyleConfig: Linter.Config = {
   extends: ['prettier'],
   plugins: ['prettier'],
   rules: {
@@ -11,4 +11,4 @@ const config: Linter.Config = {
   },
 };
 
-export default merge(defaultConfig, config);
+export default merge(defaultConfig, strictCodeStyleConfig);

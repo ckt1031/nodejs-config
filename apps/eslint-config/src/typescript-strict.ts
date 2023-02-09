@@ -3,7 +3,7 @@ import type { Linter } from 'eslint';
 
 import defaultConfig from './default';
 
-const config: Linter.Config = {
+export const strictTypescriptConfig: Linter.Config = {
   parser: '@typescript-eslint/parser',
   extends: [
     'plugin:@typescript-eslint/strict',
@@ -29,4 +29,4 @@ const config: Linter.Config = {
   },
 };
 
-export default merge(defaultConfig, config);
+export default merge(defaultConfig, strictTypescriptConfig);
