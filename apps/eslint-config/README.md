@@ -8,19 +8,39 @@ Welcome to the `@ckt1031/eslint-config`! This is the official ESLint configurati
 
 This configuration includes a variety of rules and plugins, such as:
 
-(All rules are enabled by default)
+### [eslint-plugin-simple-import-sort](https://www.npmjs.com/package/eslint-plugin-simple-import-sort)
 
-- [eslint-plugin-simple-import-sort](https://www.npmjs.com/package/eslint-plugin-simple-import-sort) - for import sorting simplicity
-- [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) - for various awesome ESLint rules
-- [eslint-plugin-tailwindcss](https://www.npmjs.com/package/eslint-plugin-tailwindcss) - for Tailwind CSS linting
-- [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs) - for SonarJS rules
-- [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) - for promise best practices
-- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) - for React specific linting
-- [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) - for TypeScript support.
+This plugin **sorts your imports, ensuring consistent formatting** across your codebase.
 
-(Stricter TypeScript setup)
+### [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)
 
-- [eslint-plugin-deprecation](https://www.npmjs.com/package/eslint-plugin-deprecation) - for detecting deprecated code
+This plugin provides a set of rules for enforcing best practices for Node.js and JavaScript development, with a focus on improved security and maintainability.
+
+### [eslint-plugin-tailwindcss](https://www.npmjs.com/package/eslint-plugin-tailwindcss)
+
+This plugin integrates the Tailwind CSS framework into your ESLint setup, helping you write cleaner, more maintainable code when **using Tailwind**.
+
+### [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs)
+
+This plugin provides a set of rules aimed at **improving code quality and catching bugs early**, by leveraging the SonarJS engine.
+
+### [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)
+
+This plugin provides a set of rules for enforcing best practices when working with **Promises in JavaScript**.
+
+### [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+
+This plugin provides a set of rules for enforcing best practices when **writing React applications**, including guidelines for improving performance and maintainability.
+
+### [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
+
+This plugin provides a set of rules for enforcing best practices when **writing TypeScript code**, and is specifically designed for use with the TypeScript language.
+
+### [eslint-plugin-deprecation](https://www.npmjs.com/package/eslint-plugin-deprecation)
+
+(Stricter TypeScript only)
+
+This plugin provides a set of rules to enfore best practices when using **deprecated APIs**.
 
 ## Installation
 
@@ -34,7 +54,7 @@ npm install --save-dev @ckt1031/eslint-config
 
 Add the following code to your `.eslintrc.js` or `.eslintrc.json` file:
 
-(Default, TypeScript is also supported)
+- Default: (TypeScript is also supported)
 
 ```js
 module.exports = {
@@ -43,7 +63,7 @@ module.exports = {
 };
 ```
 
-(Typescript Strict)
+- Typescript Strict:
 
 ```js
 module.exports = {
