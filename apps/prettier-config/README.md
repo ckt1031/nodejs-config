@@ -4,6 +4,22 @@
 
 Welcome to the `@ckt1031/prettier-config`! This is the Prettier configuration for [ckt1031](https://github.com/ckt1031).
 
+## Specificed Config
+
+- **Single Quotes** - Use single quotes instead of double quotes.
+- **Tab Width** - Use **2** spaces for indentation.
+- **Trailing Comma** - Use trailing commas wherever possible.
+- **Print Width** - Use a print width of **100** characters.
+- **Avoid Parentheses** - Avoid parentheses when possible.
+
+> `x => x * x` instead of `(x) => x * x`
+
+- **Truey Bracket Spacing** - Add spaces inside of curly braces.
+
+> `{ foo: bar }` instead of `{foo: bar}`
+
+- **Disabled bracket same line** - Objects and arrays are formatted with each item on a new line.
+
 ## Prettier Plugins
 
 In addition to the base Prettier configuration, this package also includes the following plugins:
