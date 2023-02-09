@@ -1,5 +1,15 @@
 # @ckt1031/eslint-config
 
+## 0.1.0
+
+### Minor Changes
+
+- [#36](https://github.com/ckt1031/nodejs-config/pull/36) [`0943a1d`](https://github.com/ckt1031/nodejs-config/commit/0943a1dfc3e9a920818e8791bb753d43389789b7) Thanks [@ckt1031](https://github.com/ckt1031)! - Add new `code-style` and `ultimate` code rules
+
+### Patch Changes
+
+- [#36](https://github.com/ckt1031/nodejs-config/pull/36) [`9522914`](https://github.com/ckt1031/nodejs-config/commit/9522914bbce317bd28578a73ae08555f2aae5b17) Thanks [@ckt1031](https://github.com/ckt1031)! - Update readme, better desc for each eslint plugins
+
 ## 0.0.17
 
 ## 0.0.16

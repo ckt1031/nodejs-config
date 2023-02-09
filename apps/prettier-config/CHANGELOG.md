@@ -1,5 +1,11 @@
 # @ckt1031/prettier-config
 
+## 0.1.0
+
+### Patch Changes
+
+- [#36](https://github.com/ckt1031/nodejs-config/pull/36) [`b53b8a6`](https://github.com/ckt1031/nodejs-config/commit/b53b8a66e89d51ec5483aefb2fadfca1e57cb7e2) Thanks [@ckt1031](https://github.com/ckt1031)! - Update readme
+
 ## 0.0.17
 
 ### Patch Changes
