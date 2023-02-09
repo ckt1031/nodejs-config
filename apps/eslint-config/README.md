@@ -63,11 +63,32 @@ module.exports = {
 };
 ```
 
+- Code Style: (prettier)
+
+```js
+module.exports = {
+  extends: ['@ckt1031/eslint-config/code-style'],
+};
+```
+
 - Typescript Strict:
 
 ```js
 module.exports = {
   extends: ['@ckt1031/eslint-config/typescript-strict'],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    project: './tsconfig.json',
+    // tsconfigRootDir: __dirname, // if you use tsconfig.json in a different directory
+  },
+};
+```
+
+- Ultimate: (TypeScript strict + Code Style)
+
+```js
+module.exports = {
+  extends: ['@ckt1031/eslint-config/ultimate'],
   parserOptions: {
     ecmaVersion: 'latest',
     project: './tsconfig.json',
