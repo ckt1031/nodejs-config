@@ -1,8 +1,8 @@
 import merge from 'deepmerge';
 
-import { strictCodeStyleConfig } from './code-style';
 import defaultConfig from './default';
-import { strictTypescriptConfig } from './typescript-strict';
+import strictCodeStyleConfig from './sub-rules/prettier';
+import strictTypescriptConfig from './sub-rules/strict-typescript';
 
 const config = merge(strictCodeStyleConfig, strictTypescriptConfig);
 
