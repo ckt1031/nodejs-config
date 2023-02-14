@@ -48,7 +48,7 @@
     "@rollup/plugin-node-resolve": "15.0.1",
     "@rollup/plugin-typescript": "11.0.0",
     "@types/deepmerge": "2.2.0",
-    "@types/eslint": "8.21.0",
+    "@types/eslint": "8.21.1",
     "@types/node": "18.13.0",
     "@types/rollup-plugin-auto-external": "2.0.2",
     "eslint": "8.34.0",
