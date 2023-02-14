@@ -27,7 +27,7 @@ importers:
       '@rollup/plugin-node-resolve': 15.0.1
       '@rollup/plugin-typescript': 11.0.0
       '@types/deepmerge': 2.2.0
-      '@types/eslint': 8.21.0
+      '@types/eslint': 8.21.1
       '@types/node': 18.13.0
       '@types/rollup-plugin-auto-external': 2.0.2
       '@typescript-eslint/eslint-plugin': 5.51.0
@@ -75,7 +75,7 @@ importers:
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.15.0
       '@rollup/plugin-typescript': 11.0.0_xswiuafr57fmdlvfpvse52fe3e
       '@types/deepmerge': 2.2.0
-      '@types/eslint': 8.21.0
+      '@types/eslint': 8.21.1
       '@types/node': 18.13.0
       '@types/rollup-plugin-auto-external': 2.0.2
       eslint: 8.34.0
@@ -502,8 +502,8 @@ packages:
       deepmerge: 4.3.0
     dev: true
 
-  /@types/eslint/8.21.0:
-    resolution: {integrity: sha512-35EhHNOXgxnUgh4XCJsGhE7zdlDhYDN/aMG6UbkByCFFNgQ7b3U+uVoqBpicFydR8JEfgdjCF7SJ7MiJfzuiTA==}
+  /@types/eslint/8.21.1:
+    resolution: {integrity: sha512-rc9K8ZpVjNcLs8Fp0dkozd5Pt2Apk1glO4Vgz8ix1u6yFByxfqo5Yavpy65o+93TAe24jr7v+eSBtFLvOQtCRQ==}
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
