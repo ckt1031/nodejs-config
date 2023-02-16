@@ -18,11 +18,15 @@
     "README.md",
     "LICENSE"
   ],
+  "scripts": {
+    "test": "vitest run"
+  },
   "dependencies": {
     "prettier-plugin-package-perfection": "1.1.0",
     "prettier-plugin-prisma": "4.10.0",
     "prettier-plugin-sort-json": "1.0.0",
-    "prettier-plugin-tailwindcss": "0.2.3"
+    "prettier-plugin-tailwindcss": "0.2.3",
+    "vitest": "0.28.5"
   },
   "peerDependencies": {
     "prettier": "2.x"
