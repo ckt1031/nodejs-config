@@ -11,7 +11,8 @@
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint --fix . && pnpm -F @ckt1031/* lint",
-    "prepare": "is-ci || husky install"
+    "prepare": "is-ci || husky install",
+    "test": "pnpm -F @ckt1031/* test"
   },
   "dependencies": {
     "@changesets/changelog-github": "0.4.8",
