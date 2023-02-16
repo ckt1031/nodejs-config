@@ -5,5 +5,5 @@
   },
   "exclude": ["node_modules", "dist"],
   "extends": "@ckt1031/tsconfig/base.json",
-  "include": ["src", "rollup.config.mjs"]
+  "include": ["src", "rollup.config.mjs", "tests/examples/example-1.ts"]
 }
