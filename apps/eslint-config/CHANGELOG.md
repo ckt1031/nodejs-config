@@ -1,5 +1,11 @@
 # @ckt1031/eslint-config
 
+## 0.1.2
+
+### Patch Changes
+
+- [#47](https://github.com/ckt1031/nodejs-config/pull/47) [`32bb10c`](https://github.com/ckt1031/nodejs-config/commit/32bb10cd3e7249b00024e4c1b07fbf6b4ec5cf76) Thanks [@ckt1031](https://github.com/ckt1031)! - Add tests
+
 ## 0.1.1
 
 ### Patch Changes
