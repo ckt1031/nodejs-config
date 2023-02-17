@@ -1,6 +1,6 @@
 {
   "name": "@ckt1031/prettier-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The official Prettier configuration for ckt1031 projects",
   "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/ckt1031/)",
   "homepage": "https://github.com/ckt1031/nodejs-config#readme",
