@@ -35,7 +35,7 @@
     "eslint-plugin-security": "1.7.1",
     "eslint-plugin-simple-import-sort": "10.0.0",
     "eslint-plugin-sonarjs": "0.18.0",
-    "eslint-plugin-tailwindcss": "3.8.3",
+    "eslint-plugin-tailwindcss": "3.9.0",
     "eslint-plugin-unicorn": "45.0.2",
     "eslint-plugin-write-good-comments": "0.1.4"
   },
