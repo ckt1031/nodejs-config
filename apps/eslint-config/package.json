@@ -50,7 +50,7 @@
     "@rollup/plugin-typescript": "11.0.0",
     "@types/deepmerge": "2.2.0",
     "@types/eslint": "8.21.1",
-    "@types/node": "18.14.1",
+    "@types/node": "18.14.2",
     "@types/rollup-plugin-auto-external": "2.0.2",
     "eslint": "8.35.0",
     "rollup": "3.17.3",
