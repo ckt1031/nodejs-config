@@ -21,8 +21,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.53.0",
-    "@typescript-eslint/parser": "5.53.0",
+    "@typescript-eslint/eslint-plugin": "5.54.0",
+    "@typescript-eslint/parser": "5.54.0",
     "deepmerge": "4.3.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-autofix": "1.1.0",
