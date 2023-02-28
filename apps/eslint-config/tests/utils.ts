@@ -20,8 +20,6 @@ export const checkLintingErrors = (engine: ESLint) => {
   it('does not produce linting errors', async () => {
     const lintResults = await engine.lintText('');
 
-    console.log(lintResults[0].messages[0]);
-
     expect(lintResults[0].errorCount).toBe(0);
   });
 };
