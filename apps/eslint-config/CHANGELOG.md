@@ -1,5 +1,11 @@
 # @ckt1031/eslint-config
 
+## 0.1.3
+
+### Patch Changes
+
+- [#66](https://github.com/ckt1031/nodejs-config/pull/66) [`32a1ba0`](https://github.com/ckt1031/nodejs-config/commit/32a1ba0b2c491890f2c492273e8892b774dfbfc8) Thanks [@ckt1031](https://github.com/ckt1031)! - Remove console.log when running tests
+
 ## 0.1.2
 
 ### Patch Changes
