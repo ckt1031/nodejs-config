@@ -45,7 +45,7 @@ importers:
       eslint-plugin-security: 1.7.1
       eslint-plugin-simple-import-sort: 10.0.0
       eslint-plugin-sonarjs: 0.18.0
-      eslint-plugin-tailwindcss: 3.10.0
+      eslint-plugin-tailwindcss: 3.10.1
       eslint-plugin-unicorn: 46.0.0
       eslint-plugin-write-good-comments: 0.1.4
       rollup: 3.17.3
@@ -67,7 +67,7 @@ importers:
       eslint-plugin-security: 1.7.1
       eslint-plugin-simple-import-sort: 10.0.0_eslint@8.35.0
       eslint-plugin-sonarjs: 0.18.0_eslint@8.35.0
-      eslint-plugin-tailwindcss: 3.10.0_tailwindcss@3.2.4
+      eslint-plugin-tailwindcss: 3.10.1_tailwindcss@3.2.4
       eslint-plugin-unicorn: 46.0.0_eslint@8.35.0
       eslint-plugin-write-good-comments: 0.1.4_mbtr3ald3hcqvtwfvnckguo3q4
     devDependencies:
@@ -1978,8 +1978,8 @@ packages:
       eslint: 8.35.0
     dev: false
 
-  /eslint-plugin-tailwindcss/3.10.0_tailwindcss@3.2.4:
-    resolution: {integrity: sha512-6fqvo9Dp3BqGntQoMHH3ri/nWKwUnYDqx67eKUgNPscaNxqjDEJvV6Cj8zgmCjJBAMrU+Cu6Eh4INKsgEwEbDQ==}
+  /eslint-plugin-tailwindcss/3.10.1_tailwindcss@3.2.4:
+    resolution: {integrity: sha512-NLPZ6b6nd/8CgGNMQ6NDiPUfBLQpSGu/u9RyX3MCZOwzNs2dFt1OamNAiRuo3Ixh7Gv4t5UcAcdNt8z74UDJkA==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
       tailwindcss: ^3.2.2
