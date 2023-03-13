@@ -11,6 +11,9 @@ describe('Typescript Strict Configuration', () => {
     },
   });
 
+  // check that the engine is valid
   checkValidity(engine);
+
+  // check that there are no linting errors in the file
   checkLintingErrorsFromFile(engine, './tests/examples/example-1.ts');
 });

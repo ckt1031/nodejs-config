@@ -6,13 +6,19 @@ import rollupPluginNodeResolve from '@rollup/plugin-node-resolve';
 import rollupPluginTypescript from '@rollup/plugin-typescript';
 import rollupPluginAutoExternal from 'rollup-plugin-auto-external';
 
+// Read the files in the src directory
 const dir = './src/';
+// Filter the .ts files
 const files = fs.readdirSync(dir).filter(file => file.endsWith('.ts'));
 
 const plugins = [
+  // Automatically mark all dependencies as external
   rollupPluginAutoExternal(),
+  // Resolve node modules
   rollupPluginNodeResolve(),
+  // Convert CommonJS modules to ES6
   rollupPluginCommonjs(),
+  // Compile TypeScript files
   rollupPluginTypescript({
     tsconfig: 'tsconfig.json',
   }),
