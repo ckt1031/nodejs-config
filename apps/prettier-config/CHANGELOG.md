@@ -1,5 +1,11 @@
 # @ckt1031/prettier-config
 
+## 0.2.0
+
+### Minor Changes
+
+- [#82](https://github.com/ckt1031/nodejs-config/pull/82) [`73fde2f`](https://github.com/ckt1031/nodejs-config/commit/73fde2f8a693f03f24d34a42220d12ec1a2b6c98) Thanks [@ckt1031](https://github.com/ckt1031)! - Add suitable comments to code
+
 ## 0.1.3
 
 ## 0.1.2
