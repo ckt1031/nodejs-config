@@ -11,6 +11,9 @@ describe('Ultimate Configuration', () => {
     },
   });
 
+  // Check the engine's configuration.
   checkValidity(engine);
+
+  // Check the engine's linting errors.
   checkLintingErrorsFromFile(engine, './tests/examples/example-1.ts');
 });
