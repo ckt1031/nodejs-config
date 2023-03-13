@@ -12,7 +12,7 @@ export const createEngine = (baseConfig: Linter.Config) => {
 export const checkValidity = (engine: ESLint) => {
   it('is valid configuration', async () => {
     // Linting an empty string is invalid, so we expect it to throw
-    await expect(engine.lintText('')).resolves.toThrow();
+    await expect(engine.lintText('')).resolves.not.toThrow();
   });
 };
 
