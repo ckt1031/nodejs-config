@@ -1,5 +1,15 @@
 # @ckt1031/eslint-config
 
+## 0.2.0
+
+### Minor Changes
+
+- [#82](https://github.com/ckt1031/nodejs-config/pull/82) [`73fde2f`](https://github.com/ckt1031/nodejs-config/commit/73fde2f8a693f03f24d34a42220d12ec1a2b6c98) Thanks [@ckt1031](https://github.com/ckt1031)! - Add suitable comments to code
+
+### Patch Changes
+
+- [#82](https://github.com/ckt1031/nodejs-config/pull/82) [`28f7fb5`](https://github.com/ckt1031/nodejs-config/commit/28f7fb5ef8c53c9673517317514d9072c3677c99) Thanks [@ckt1031](https://github.com/ckt1031)! - Use `tsec` as type-checking command
+
 ## 0.1.3
 
 ### Patch Changes
