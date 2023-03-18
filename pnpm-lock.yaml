@@ -32,7 +32,7 @@ importers:
       '@types/rollup-plugin-auto-external': 2.0.2
       '@typescript-eslint/eslint-plugin': 5.54.1
       '@typescript-eslint/parser': 5.54.1
-      deepmerge: 4.3.0
+      deepmerge: 4.3.1
       eslint: 8.36.0
       eslint-config-prettier: 8.7.0
       eslint-plugin-autofix: 1.1.0
@@ -56,7 +56,7 @@ importers:
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.54.1_k4rdtyz2uuo3tzblkqed7c56rq
       '@typescript-eslint/parser': 5.54.1_j4766f7ecgqbon3u7zlxn5zszu
-      deepmerge: 4.3.0
+      deepmerge: 4.3.1
       eslint-config-prettier: 8.7.0_eslint@8.36.0
       eslint-plugin-autofix: 1.1.0_eslint@8.36.0
       eslint-plugin-deprecation: 1.3.3_j4766f7ecgqbon3u7zlxn5zszu
@@ -733,7 +733,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.0.2_rollup@3.19.1
       '@types/resolve': 1.20.2
-      deepmerge: 4.3.0
+      deepmerge: 4.3.1
       is-builtin-module: 3.2.0
       is-module: 1.0.0
       resolve: 1.22.1
@@ -800,7 +800,7 @@ packages:
     resolution: {integrity: sha512-FEQYDHh6+Q+QXKSrIY46m+/lAmAj/bk4KpLaam+hArmzaVpMBHLcfwOH2Q2UOkWM7XsdY9PmZpGyPAjh/JRGhQ==}
     deprecated: This is a stub types definition. deepmerge provides its own type definitions, so you do not need this installed.
     dependencies:
-      deepmerge: 4.3.0
+      deepmerge: 4.3.1
     dev: true
 
   /@types/eslint/8.21.2:
@@ -1736,8 +1736,8 @@ packages:
   /deep-is/0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
 
-  /deepmerge/4.3.0:
-    resolution: {integrity: sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og==}
+  /deepmerge/4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
 
   /defaults/1.0.4:
