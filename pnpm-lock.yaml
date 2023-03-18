@@ -93,14 +93,14 @@ importers:
       prettier-plugin-package-perfection: 1.1.0
       prettier-plugin-prisma: 4.10.0
       prettier-plugin-sort-json: 1.0.0
-      prettier-plugin-tailwindcss: 0.2.4
+      prettier-plugin-tailwindcss: 0.2.5
       vitest: 0.29.2
     dependencies:
       prettier: 2.8.3
       prettier-plugin-package-perfection: 1.1.0
       prettier-plugin-prisma: 4.10.0_prettier@2.8.3
       prettier-plugin-sort-json: 1.0.0_prettier@2.8.3
-      prettier-plugin-tailwindcss: 0.2.4_prettier@2.8.3
+      prettier-plugin-tailwindcss: 0.2.5_prettier@2.8.3
       vitest: 0.29.2
 
   apps/tsconfig:
@@ -3949,8 +3949,8 @@ packages:
       prettier: 2.8.3
     dev: false
 
-  /prettier-plugin-tailwindcss/0.2.4_prettier@2.8.3:
-    resolution: {integrity: sha512-wMyugRI2yD8gqmMpZSS8kTA0gGeKozX/R+w8iWE+yiCZL09zY0SvfiHfHabNhjGhzxlQ2S2VuTxPE3T72vppCQ==}
+  /prettier-plugin-tailwindcss/0.2.5_prettier@2.8.3:
+    resolution: {integrity: sha512-vZ/iKieyCx0WTxHbkf5E1rBlv/ybFk8WTT4hL5W2jlVxum2Zbe0jMUpuQdDrpa4z2vnPiJ5KIWCqL/kd16fKYg==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
