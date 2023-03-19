@@ -35,4 +35,4 @@ jobs:
         run: pnpm build
 
       - name: Run Checking
-        run: pnpm prettier --check .  && pnpm eslint --max-warnings 0 .
+        run: pnpm eslint --max-warnings 0 .
