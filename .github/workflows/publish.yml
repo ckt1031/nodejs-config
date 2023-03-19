@@ -31,7 +31,7 @@ jobs:
         run: pnpm build
 
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v3
+        run: pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
