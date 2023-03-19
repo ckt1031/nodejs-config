@@ -38,7 +38,7 @@ And that's it! You're now ready to use
 
 This package is compatible with the following TypeScript and Node.js versions:
 
-- TypeScript: 4.0 or later (recommended: 4.9, before major version 5)
+- TypeScript: 5.0 or later
 - Node.js: Any version that supports the above TypeScript version
 
 **Updating to the latest version of this package is recommended for the best compatibility.**
