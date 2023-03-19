@@ -17,7 +17,7 @@
     "web.json"
   ],
   "peerDependencies": {
-    "typescript": "4.x || 5.x"
+    "typescript": "5.x"
   },
   "devDependencies": {
     "typescript": "5.0.2"
