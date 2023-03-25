@@ -54,7 +54,7 @@ importers:
       eslint-plugin-write-good-comments: 0.1.4
       rollup: 3.19.1
       rollup-plugin-auto-external: 2.0.0
-      tsec: 0.2.6
+      tsec: 0.2.7
       typescript: 5.0.2
       vitest: 0.29.3
     dependencies:
@@ -87,7 +87,7 @@ importers:
       eslint: 8.36.0
       rollup: 3.19.1
       rollup-plugin-auto-external: 2.0.0_rollup@3.19.1
-      tsec: 0.2.6_z5cszflpbx25u4z3mzqp6iuob4
+      tsec: 0.2.7_z5cszflpbx25u4z3mzqp6iuob4
       typescript: 5.0.2
       vitest: 0.29.3
 
@@ -5668,8 +5668,8 @@ packages:
       strip-bom: 3.0.0
     dev: false
 
-  /tsec/0.2.6_z5cszflpbx25u4z3mzqp6iuob4:
-    resolution: {integrity: sha512-k+R542uVRucupBFLsSXVvrgyy0W7MMNFsrDxewBsFaCGO18P9HX/91GmejA8cywRneWPV/CRdj3JwslKoPafVA==}
+  /tsec/0.2.7_z5cszflpbx25u4z3mzqp6iuob4:
+    resolution: {integrity: sha512-Pj9DuBBWLEo8p7QsbrEdXzW/u6QJBcib0ZGOTXkeSDx+PLXFY7hwyZE9Tfhp3TA3LQNpYouyT0WmzXRyUW4otQ==}
     hasBin: true
     peerDependencies:
       '@bazel/bazelisk': '>=1.7.5'
