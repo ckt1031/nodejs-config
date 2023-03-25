@@ -10,7 +10,7 @@ importers:
       '@semantic-release/git': 10.0.1
       husky: 8.0.3
       is-ci: 3.0.1
-      prettier: 2.8.4
+      prettier: 2.8.7
       semantic-release: 21.0.0
       semantic-release-monorepo: 7.0.5
     dependencies:
@@ -20,7 +20,7 @@ importers:
       '@semantic-release/git': 10.0.1_semantic-release@21.0.0
       husky: 8.0.3
       is-ci: 3.0.1
-      prettier: 2.8.4
+      prettier: 2.8.7
       semantic-release: 21.0.0
       semantic-release-monorepo: 7.0.5_semantic-release@21.0.0
 
@@ -65,7 +65,7 @@ importers:
       eslint-plugin-autofix: 1.1.0_eslint@8.36.0
       eslint-plugin-deprecation: 1.3.3_j4766f7ecgqbon3u7zlxn5zszu
       eslint-plugin-jsx-a11y: 6.7.1_eslint@8.36.0
-      eslint-plugin-prettier: 4.2.1_7sb2khnpunhlasziblb2dlqwge
+      eslint-plugin-prettier: 4.2.1_ywlv3zveqg2kxfq44lflihh5mm
       eslint-plugin-promise: 6.1.1_eslint@8.36.0
       eslint-plugin-react: 7.32.2_eslint@8.36.0
       eslint-plugin-regexp: 1.13.0_eslint@8.36.0
@@ -2315,7 +2315,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier/4.2.1_7sb2khnpunhlasziblb2dlqwge:
+  /eslint-plugin-prettier/4.2.1_ywlv3zveqg2kxfq44lflihh5mm:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2328,7 +2328,7 @@ packages:
     dependencies:
       eslint: 8.36.0
       eslint-config-prettier: 8.8.0_eslint@8.36.0
-      prettier: 2.8.4
+      prettier: 2.8.7
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -4675,8 +4675,8 @@ packages:
     hasBin: true
     dev: false
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: false
