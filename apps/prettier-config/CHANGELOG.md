@@ -1,9 +1,8 @@
 # [@ckt1031/prettier-config-v1.0.1](https://github.com/ckt1031/nodejs-config/compare/@ckt1031/prettier-config-v1.0.0...@ckt1031/prettier-config-v1.0.1) (2023-03-19)
 
-
 ### Bug Fixes
 
-* **ci:** remove prettier check ([5839a77](https://github.com/ckt1031/nodejs-config/commit/5839a77f5975b0bd0a216277bf78752a57c0d1d8))
+- **ci:** remove prettier check ([5839a77](https://github.com/ckt1031/nodejs-config/commit/5839a77f5975b0bd0a216277bf78752a57c0d1d8))
 
 # @ckt1031/prettier-config-v1.0.0 (2023-03-19)
 
