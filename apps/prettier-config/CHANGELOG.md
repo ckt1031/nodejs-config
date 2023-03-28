@@ -1,14 +1,12 @@
 # [@ckt1031/prettier-config-v1.0.2](https://github.com/ckt1031/nodejs-config/compare/@ckt1031/prettier-config-v1.0.1...@ckt1031/prettier-config-v1.0.2) (2023-03-25)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency vitest to v0.29.7 ([ceb3687](https://github.com/ckt1031/nodejs-config/commit/ceb3687cfcc95d4e76472414e12390c0fe59e35f))
-
+- **deps:** update dependency vitest to v0.29.7 ([ceb3687](https://github.com/ckt1031/nodejs-config/commit/ceb3687cfcc95d4e76472414e12390c0fe59e35f))
 
 ### Reverts
 
-* downgrade semantic release dep ([70d3736](https://github.com/ckt1031/nodejs-config/commit/70d3736d563a00912cad26ba151899c565f1ffb9))
+- downgrade semantic release dep ([70d3736](https://github.com/ckt1031/nodejs-config/commit/70d3736d563a00912cad26ba151899c565f1ffb9))
 
 # [@ckt1031/prettier-config-v1.0.1](https://github.com/ckt1031/nodejs-config/compare/@ckt1031/prettier-config-v1.0.0...@ckt1031/prettier-config-v1.0.1) (2023-03-19)
 
