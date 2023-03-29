@@ -31,6 +31,6 @@
   "devDependencies": {
     "semantic-release": "^21.0.0"
   },
-  "packageManager": "pnpm@8.0.0",
+  "packageManager": "pnpm@8.1.0",
   "prettier": "@ckt1031/prettier-config"
 }
