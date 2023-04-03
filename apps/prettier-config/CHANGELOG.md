@@ -1,3 +1,13 @@
+# [@ckt1031/prettier-config-v1.0.3](https://github.com/ckt1031/nodejs-config/compare/@ckt1031/prettier-config-v1.0.2...@ckt1031/prettier-config-v1.0.3) (2023-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier-plugin-prisma to v4.12.0 ([c943975](https://github.com/ckt1031/nodejs-config/commit/c9439756e4d6dd4e5631e1a0beb0fa6e2e905619))
+* **deps:** update dependency prettier-plugin-tailwindcss to v0.2.6 ([d091815](https://github.com/ckt1031/nodejs-config/commit/d0918151f4024b926daf2b846c088939805976a9))
+* **deps:** update dependency vitest to v0.29.8 ([5c94a3d](https://github.com/ckt1031/nodejs-config/commit/5c94a3dcbbb3cf6635198ac35641b6972586b6d7))
+* **pnpm:** patch lockfile ([3b80bbf](https://github.com/ckt1031/nodejs-config/commit/3b80bbf946dfaec08143b5327cf486d632cec6d5))
+
 # [@ckt1031/prettier-config-v1.0.2](https://github.com/ckt1031/nodejs-config/compare/@ckt1031/prettier-config-v1.0.1...@ckt1031/prettier-config-v1.0.2) (2023-03-25)
 
 ### Bug Fixes
