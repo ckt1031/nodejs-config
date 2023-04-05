@@ -46,7 +46,7 @@
   "devDependencies": {
     "@ckt1031/tsconfig": "workspace:*",
     "@rollup/plugin-commonjs": "24.0.1",
-    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-node-resolve": "15.0.2",
     "@rollup/plugin-typescript": "11.1.0",
     "@types/deepmerge": "2.2.0",
     "@types/eslint": "8.37.0",
