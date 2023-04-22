@@ -1,0 +1,24 @@
+name: Sync Renovate changeset
+on:
+  pull_request_target:
+    paths:
+      - '.github/workflows/sync_renovate-changesets.yml'
+      - '**/pnpm-lock.yaml'
+
+jobs:
+  generate-changeset:
+    runs-on: ubuntu-latest
+    if: github.actor == 'renovate[bot]' && github.repository == 'ckt1031/nodejs-config'
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+          ref: ${{ github.head_ref }}
+
+      - name: Configure Git
+        run: |
+          git config --global user.email 65409152+ckt1031@users.noreply.github.com
+          git config --global user.name 'Github changeset workflow'
+
+      - name: Generate changeset
+        run: pnpm sync-renovate-changesets
