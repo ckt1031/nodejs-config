@@ -10,6 +10,8 @@
   },
   "scripts": {
     "build": "pnpm -F @ckt1031/* build",
+    "ci:publish": "changeset publish",
+    "ci:version": "changeset version",
     "format": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint --fix . && pnpm -F @ckt1031/* lint",
@@ -17,6 +19,8 @@
     "test": "pnpm -F @ckt1031/* test"
   },
   "dependencies": {
+    "@changesets/changelog-github": "0.4.8",
+    "@changesets/cli": "2.26.1",
     "@ckt1031/eslint-config": "workspace:*",
     "@ckt1031/prettier-config": "workspace:*",
     "husky": "8.0.3",
