@@ -3,7 +3,7 @@ on:
   pull_request_target:
     paths:
       - '.github/workflows/sync_renovate-changesets.yml'
-      - '**/pnpm-lock.yaml'
+      - '**/package-lock.json'
 
 jobs:
   generate-changeset:
@@ -15,10 +15,13 @@ jobs:
           fetch-depth: 2
           ref: ${{ github.head_ref }}
 
+      - name: Setup Environment
+        uses: ./.github/actions/setup
+
       - name: Configure Git
         run: |
           git config --global user.email 65409152+ckt1031@users.noreply.github.com
           git config --global user.name 'Github changeset workflow'
 
       - name: Generate changeset
-        run: pnpm sync-renovate-changesets
+        run: npm run sync-renovate-changesets
