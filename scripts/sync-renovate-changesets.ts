@@ -1,3 +1,4 @@
+/* eslint-disable security/detect-non-literal-fs-filename */
 /* eslint-disable unicorn/no-process-exit */
 import { exec as _exec } from 'node:child_process';
 import { promises as fs } from 'node:fs';
