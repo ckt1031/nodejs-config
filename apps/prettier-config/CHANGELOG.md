@@ -1,3 +1,17 @@
+# [@ckt1031/prettier-config-v1.1.0](https://github.com/ckt1031/nodejs-config/compare/@ckt1031/prettier-config-v1.0.3...@ckt1031/prettier-config-v1.1.0) (2023-04-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier-plugin-tailwindcss to v0.2.7 ([e9d6b6e](https://github.com/ckt1031/nodejs-config/commit/e9d6b6e6c15c9dea626432bf24a021e39c130a8d))
+* **deps:** update dependency vitest to v0.30.0 ([c1e8bd8](https://github.com/ckt1031/nodejs-config/commit/c1e8bd87dbeb0cc070b27664cb666f45e5512c4f))
+* **deps:** update dependency vitest to v0.30.1 ([17939ab](https://github.com/ckt1031/nodejs-config/commit/17939ab6452c40ade0a1bd29c7da1126c7f2642b))
+
+
+### Features
+
+* implement beta provenance feature ([b2fe461](https://github.com/ckt1031/nodejs-config/commit/b2fe461b19823e0c82dd8db6e4e34f885982fa87))
+
 # [@ckt1031/prettier-config-v1.0.3](https://github.com/ckt1031/nodejs-config/compare/@ckt1031/prettier-config-v1.0.2...@ckt1031/prettier-config-v1.0.3) (2023-04-03)
 
 ### Bug Fixes
