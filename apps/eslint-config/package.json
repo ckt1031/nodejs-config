@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "build": "rollup -c --silent",
-    "lint": "tsc",
+    "lint": "tsc && eslint --fix . --cache",
     "test": "vitest run"
   },
   "dependencies": {
@@ -44,7 +44,7 @@
     "typescript": "5.x"
   },
   "devDependencies": {
-    "@ckt1031/tsconfig": "workspace:*",
+    "@ckt1031/tsconfig": "*",
     "@rollup/plugin-commonjs": "24.1.0",
     "@rollup/plugin-node-resolve": "15.0.2",
     "@rollup/plugin-typescript": "11.1.0",

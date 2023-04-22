@@ -15,24 +15,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          cache: pnpm
-          node-version: 18
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install dependencies
-        run: pnpm install
+      - name: Setup Environment
+        uses: ./.github/actions/setup
 
       - name: Testing
-        run: pnpm test
-
-      - name: Build packages
-        run: pnpm build
+        run: npm run test
 
       - name: Run Checking
-        run: pnpm eslint --max-warnings 0 .
+        run: npx eslint --max-warnings 0 .

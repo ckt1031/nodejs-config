@@ -2,7 +2,7 @@
 
 [![Linting](https://github.com/ckt1031/nodejs-config/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/ckt1031/nodejs-config/actions/workflows/lint.yml)
 
-This is a monorepo to share miscellaneous Node.js config for [ckt1031](https://github.com/ckt1031), monorepo is managed by [PNPM](https://pnpm.io/) and versioned by [Changeset](https://github.com/changesets/changesets).
+This is a monorepo to share miscellaneous Node.js config for [ckt1031](https://github.com/ckt1031), monorepo is managed and versioned by [Changeset](https://github.com/changesets/changesets).
 
 ## Apps
 
