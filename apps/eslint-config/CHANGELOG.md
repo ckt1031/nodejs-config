@@ -1,14 +1,13 @@
 # [@ckt1031/eslint-config-v1.0.1](https://github.com/ckt1031/nodejs-config/compare/@ckt1031/eslint-config-v1.0.0...@ckt1031/eslint-config-v1.0.1) (2023-04-03)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency eslint-plugin-deprecation to v1.4.0 ([dec2493](https://github.com/ckt1031/nodejs-config/commit/dec24936769d077a0af1c671cb2b92ff5f8a1e08))
-* **deps:** update dependency eslint-plugin-regexp to v1.14.0 ([0309790](https://github.com/ckt1031/nodejs-config/commit/03097901a46773d1ce4cac2d426d6cb8cf74f3a7))
-* **deps:** update dependency eslint-plugin-tailwindcss to v3.10.3 ([59cb029](https://github.com/ckt1031/nodejs-config/commit/59cb02956768ed92ca8c9955b73ab9649c51dc62))
-* **deps:** update dependency vitest to v0.29.8 ([5c94a3d](https://github.com/ckt1031/nodejs-config/commit/5c94a3dcbbb3cf6635198ac35641b6972586b6d7))
-* **deps:** update typescript-eslint monorepo to v5.57.0 ([c757d20](https://github.com/ckt1031/nodejs-config/commit/c757d2081d3d6a69b2392e23b3b9fee3ab1e7e98))
-* **pnpm:** patch lockfile ([3b80bbf](https://github.com/ckt1031/nodejs-config/commit/3b80bbf946dfaec08143b5327cf486d632cec6d5))
+- **deps:** update dependency eslint-plugin-deprecation to v1.4.0 ([dec2493](https://github.com/ckt1031/nodejs-config/commit/dec24936769d077a0af1c671cb2b92ff5f8a1e08))
+- **deps:** update dependency eslint-plugin-regexp to v1.14.0 ([0309790](https://github.com/ckt1031/nodejs-config/commit/03097901a46773d1ce4cac2d426d6cb8cf74f3a7))
+- **deps:** update dependency eslint-plugin-tailwindcss to v3.10.3 ([59cb029](https://github.com/ckt1031/nodejs-config/commit/59cb02956768ed92ca8c9955b73ab9649c51dc62))
+- **deps:** update dependency vitest to v0.29.8 ([5c94a3d](https://github.com/ckt1031/nodejs-config/commit/5c94a3dcbbb3cf6635198ac35641b6972586b6d7))
+- **deps:** update typescript-eslint monorepo to v5.57.0 ([c757d20](https://github.com/ckt1031/nodejs-config/commit/c757d2081d3d6a69b2392e23b3b9fee3ab1e7e98))
+- **pnpm:** patch lockfile ([3b80bbf](https://github.com/ckt1031/nodejs-config/commit/3b80bbf946dfaec08143b5327cf486d632cec6d5))
 
 # @ckt1031/eslint-config-v1.0.0 (2023-03-25)
 
