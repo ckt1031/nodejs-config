@@ -43,6 +43,17 @@ async function getBumps(files) {
       if (!change.startsWith('+ ')) {
         continue;
       }
+
+      // Ignore "version", "resolved", "integrity" and "dev" fields
+      if (
+        change.includes('version') ||
+        change.includes('resolved') ||
+        change.includes('integrity') ||
+        change.includes('dev')
+      ) {
+        continue;
+      }
+
       const match = change.match(/"(.*?)"/g);
 
       if (match) {
