@@ -33,7 +33,6 @@ const config: Linter.Config = {
     'unicorn',
     '@typescript-eslint',
     'simple-import-sort',
-    'write-good-comments',
   ],
   rules: {
     quotes: [
@@ -46,8 +45,6 @@ const config: Linter.Config = {
     // Eslint
     'prefer-arrow-callback': 2,
     semi: [2, 'always'],
-    // Write good comments
-    'write-good-comments/write-good-comments': 1,
     // Import sorting
     'simple-import-sort/imports': 2,
     'simple-import-sort/exports': 2,
