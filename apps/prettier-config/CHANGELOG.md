@@ -1,5 +1,12 @@
 # @ckt1031/prettier-config
 
+## 1.1.3
+
+### Patch Changes
+
+- [#173](https://github.com/ckt1031/nodejs-config/pull/173) [`18212f8`](https://github.com/ckt1031/nodejs-config/commit/18212f870358f45426230127a85acefe9dcf80de) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `prettier-plugin-prisma` to `4.13.0`.
+  Updated dependency `@prisma/prisma-fmt-wasm` to `4.13.0-52.integration-mobc-upstream-d100a9299fcb9cffb064301998e9a94ce2722c49`.
+
 ## 1.1.2
 
 ### Patch Changes
