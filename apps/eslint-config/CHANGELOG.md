@@ -1,5 +1,26 @@
 # @ckt1031/eslint-config
 
+## 1.1.4
+
+### Patch Changes
+
+- [#179](https://github.com/ckt1031/nodejs-config/pull/179) [`32318b2`](https://github.com/ckt1031/nodejs-config/commit/32318b2c5dea317e7be39dc5c667af3d4cf4448f) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-unicorn` to `47.0.0`.
+  Updated dependency `@eslint-community/eslint-utils` to `^4.4.0`.
+  Updated dependency `ci-info` to `^3.8.0`.
+  Updated dependency `esquery` to `^1.5.0`.
+  Updated dependency `is-builtin-module` to `^3.2.1`.
+  Updated dependency `regjsparser` to `^0.10.0`.
+  Updated dependency `node` to `>=16`.
+  Updated dependency `eslint` to `>=8.38.0`.
+
+- [#179](https://github.com/ckt1031/nodejs-config/pull/179) [`740feea`](https://github.com/ckt1031/nodejs-config/commit/740feeafde6b4d5233bf956edec2411eb4d4c450) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `18.16.5`.
+
+- [#179](https://github.com/ckt1031/nodejs-config/pull/179) [`538c2bb`](https://github.com/ckt1031/nodejs-config/commit/538c2bb70ec29b0a16d2e883bf2ec5f479d108d5) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint` to `8.40.0`.
+  Updated dependency `espree` to `^9.5.2`.
+  Updated dependency `@eslint/eslintrc` to `^2.0.3`.
+  Updated dependency `@eslint/js` to `8.40.0`.
+  Updated dependency `eslint-visitor-keys` to `^3.4.1`.
+
 ## 1.1.3
 
 ### Patch Changes
