@@ -22,4 +22,4 @@ jobs:
         run: npm run test
 
       - name: Run Checking
-        run: npx eslint --max-warnings 0 .
+        run: npm run lint
