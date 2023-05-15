@@ -1,5 +1,36 @@
 # @ckt1031/eslint-config
 
+## 1.1.5
+
+### Patch Changes
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`d7913fb`](https://github.com/ckt1031/nodejs-config/commit/d7913fb232b2e22d8aeacf3c15620a384472e78a) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/eslint-plugin` to `5.59.5`.
+  Updated dependency `@typescript-eslint/parser` to `5.59.5`.
+  Updated dependency `@typescript-eslint/scope-manager` to `5.59.5`.
+  Updated dependency `@typescript-eslint/type-utils` to `5.59.5`.
+  Updated dependency `@typescript-eslint/utils` to `5.59.5`.
+  Updated dependency `@typescript-eslint/types` to `5.59.5`.
+  Updated dependency `@typescript-eslint/typescript-estree` to `5.59.5`.
+  Updated dependency `@typescript-eslint/visitor-keys` to `5.59.5`.
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`9331c9e`](https://github.com/ckt1031/nodejs-config/commit/9331c9edb40dde05120389fdf098b2084560d0c2) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `3.21.6`.
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`69956ba`](https://github.com/ckt1031/nodejs-config/commit/69956ba089a3ca5dc3497e490c151e8fdc9afbdc) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `18.16.7`.
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`11caaeb`](https://github.com/ckt1031/nodejs-config/commit/11caaeb3e1b104880a6cb8e111b87400474276b6) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `18.16.9`.
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`873ffd8`](https://github.com/ckt1031/nodejs-config/commit/873ffd82029c8fc66376bfd78fda88702a3f9cd6) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `18.16.6`.
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`87f035c`](https://github.com/ckt1031/nodejs-config/commit/87f035c0b4ba82b4d161fb5efc269905dba57199) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@rollup/plugin-commonjs` to `25.0.0`.
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`bcd2d11`](https://github.com/ckt1031/nodejs-config/commit/bcd2d1109a53874765bccb4dd0d55e130a59f445) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-regexp` to `1.15.0`.
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`6ee803f`](https://github.com/ckt1031/nodejs-config/commit/6ee803fa37eba93fe6507c52c3a7918ac28b4755) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `3.21.7`.
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`3f7f5d9`](https://github.com/ckt1031/nodejs-config/commit/3f7f5d9d1655cfa50f6ff16c958f8a81d87d5fdf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `18.16.8`.
+
+- [#192](https://github.com/ckt1031/nodejs-config/pull/192) [`1b228d0`](https://github.com/ckt1031/nodejs-config/commit/1b228d07e76a37fc0514c99eae826993c1a4733f) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@rollup/plugin-typescript` to `11.1.1`.
+
 ## 1.1.4
 
 ### Patch Changes
