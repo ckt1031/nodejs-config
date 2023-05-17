@@ -1,5 +1,26 @@
 # @ckt1031/eslint-config
 
+## 1.1.6
+
+### Patch Changes
+
+- [#201](https://github.com/ckt1031/nodejs-config/pull/201) [`e677207`](https://github.com/ckt1031/nodejs-config/commit/e6772070c6b183704eaa30fe6fa3a5fae70d5e94) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-tailwindcss` to `3.12.0`.
+
+- [#201](https://github.com/ckt1031/nodejs-config/pull/201) [`12f78a3`](https://github.com/ckt1031/nodejs-config/commit/12f78a3f857a8fa2909b8aafe41049d9e42f2d03) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/eslint-plugin` to `5.59.6`.
+  Updated dependency `@typescript-eslint/parser` to `5.59.6`.
+  Updated dependency `@typescript-eslint/scope-manager` to `5.59.6`.
+  Updated dependency `@typescript-eslint/type-utils` to `5.59.6`.
+  Updated dependency `@typescript-eslint/utils` to `5.59.6`.
+  Updated dependency `@typescript-eslint/types` to `5.59.6`.
+  Updated dependency `@typescript-eslint/typescript-estree` to `5.59.6`.
+  Updated dependency `@typescript-eslint/visitor-keys` to `5.59.6`.
+
+- [#201](https://github.com/ckt1031/nodejs-config/pull/201) [`61d07bf`](https://github.com/ckt1031/nodejs-config/commit/61d07bf9e9c1f59f14959c9495a04d94444ef212) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `18.16.12`.
+
+- [#201](https://github.com/ckt1031/nodejs-config/pull/201) [`7a5a96f`](https://github.com/ckt1031/nodejs-config/commit/7a5a96f5b321e2da3c0c055e8469e2e1db3bfc1f) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `3.22.0`.
+
+- [#201](https://github.com/ckt1031/nodejs-config/pull/201) [`8530b20`](https://github.com/ckt1031/nodejs-config/commit/8530b207e7b73b1236cb08cfcad2e6ca57405d02) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `3.21.8`.
+
 ## 1.1.5
 
 ### Patch Changes
