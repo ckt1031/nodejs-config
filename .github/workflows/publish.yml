@@ -30,8 +30,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: npm run ci:version
-          publish: npm run ci:publish
+          version: pnpm ci:version
+          publish: pnpm ci:publish
           commit: 'chore(release): publish packages'
           title: 'chore(release): publish packages'
         env:
