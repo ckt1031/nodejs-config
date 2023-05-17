@@ -24,4 +24,4 @@ jobs:
           git config --global user.name 'Github changeset workflow'
 
       - name: Generate changeset
-        run: npm run sync-renovate-changesets
+        run: pnpm sync-renovate-changesets

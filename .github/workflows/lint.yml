@@ -19,7 +19,7 @@ jobs:
         uses: ./.github/actions/setup
 
       - name: Testing
-        run: npm run test
+        run: pnpm test
 
       - name: Run Checking
-        run: npm run lint
+        run: pnpm lint
