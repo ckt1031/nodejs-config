@@ -16,6 +16,9 @@ importers:
       '@ckt1031/prettier-config':
         specifier: '*'
         version: link:apps/prettier-config
+      '@ckt1031/tsconfig':
+        specifier: '*'
+        version: link:apps/tsconfig
       '@esbuild-kit/esm-loader':
         specifier: 2.5.5
         version: 2.5.5
@@ -3794,7 +3797,7 @@ packages:
     dependencies:
       prettier: 2.8.8
       prettier-package-json: 2.6.0
-      tslib: 2.5.1
+      tslib: 2.5.2
     dev: false
 
   /prettier-plugin-prisma@4.13.0(prettier@2.8.8):
@@ -4621,8 +4624,8 @@ packages:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
     dev: false
 
-  /tslib@2.5.1:
-    resolution: {integrity: sha512-KaI6gPil5m9vF7DKaoXxx1ia9fxS4qG5YveErRRVknPDXXriu5M8h48YRjB6h5ZUOKuAKlSJYb0GaDe8I39fRw==}
+  /tslib@2.5.2:
+    resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
     dev: false
 
   /tsutils@3.21.0(typescript@5.0.4):
