@@ -1,5 +1,6 @@
+#!/usr/bin/env node
 /* eslint-disable security/detect-non-literal-fs-filename */
-/* eslint-disable unicorn/no-process-exit */
+
 import { exec as _exec } from 'node:child_process';
 import { promises as fs } from 'node:fs';
 import { promisify } from 'node:util';
@@ -55,7 +56,11 @@ const dependencies: {
 }[] = [];
 
 // eslint-disable-next-line sonarjs/cognitive-complexity
-const getChangedDependencies = (projectName, deps, newDepsObj, oldDepsObj) => {
+const getChangedDependencies = (
+  projectName: string,
+  newDepsObj: Record<string, string>,
+  oldDepsObj: Record<string, string>,
+) => {
   for (const [depName, newVersion] of Object.entries(newDepsObj)) {
     if (typeof newVersion !== 'string') continue;
 
@@ -96,11 +101,9 @@ for (const { file } of packageJsonFiles) {
   } = JSON.parse(oldDepsJson);
   const { dependencies: newDeps = {}, devDependencies: newDevDeps = {} } = JSON.parse(newDepsJson);
 
-  getChangedDependencies(projectName, oldDeps, newDeps, oldDeps);
-  getChangedDependencies(projectName, oldDevDeps, newDevDeps, oldDevDeps);
+  getChangedDependencies(projectName, newDeps, oldDeps);
+  getChangedDependencies(projectName, newDevDeps, oldDevDeps);
 }
-
-console.log('Changed dependencies:', dependencies);
 
 // Create changeset
 async function createChangeset(fileName: string, packageBumps: string[][], packages: string[]) {
@@ -119,7 +122,8 @@ const addedFiles: string[] = [];
 
 // Create changeset for each changed dependency
 for (const { name, newVersion, projects } of dependencies) {
-  const fileName = `.changeset/${name}-${newVersion}.md`;
+  const safeName = name.replaceAll(/[^\w-]/g, '_').toLowerCase();
+  const fileName = `.changeset/${safeName}-${newVersion}.md`;
 
   if (addedFiles.includes(fileName)) continue;
 
