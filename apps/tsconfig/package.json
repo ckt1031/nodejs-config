@@ -20,7 +20,7 @@
     "typescript": "5.x"
   },
   "devDependencies": {
-    "typescript": "5.0.4"
+    "typescript": "5.1.3"
   },
   "keywords": [
     "ckt1031",
