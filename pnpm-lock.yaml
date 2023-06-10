@@ -97,8 +97,8 @@ importers:
         specifier: '*'
         version: link:../tsconfig
       '@rollup/plugin-commonjs':
-        specifier: 25.0.0
-        version: 25.0.0(rollup@3.24.1)
+        specifier: 25.0.1
+        version: 25.0.1(rollup@3.24.1)
       '@rollup/plugin-node-resolve':
         specifier: 15.1.0
         version: 15.1.0(rollup@3.24.1)
@@ -796,8 +796,8 @@ packages:
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
     dev: true
 
-  /@rollup/plugin-commonjs@25.0.0(rollup@3.24.1):
-    resolution: {integrity: sha512-hoho2Kay9TZrLu0bnDsTTCaj4Npa+THk9snajP/XDNb9a9mmjTjh52EQM9sKl3HD1LsnihX7js+eA2sd2uKAhw==}
+  /@rollup/plugin-commonjs@25.0.1(rollup@3.24.1):
+    resolution: {integrity: sha512-2DJ4kv4b1xfTJopWhu61ANdNRHvzQZ2fpaIrlgaP2jOfUv1wDJ0Ucqy8AZlbFmn/iUjiwKoqki9j55Y6L8kyNQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0
