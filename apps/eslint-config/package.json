@@ -52,7 +52,7 @@
     "@types/node": "18.16.16",
     "@types/rollup-plugin-auto-external": "2.0.2",
     "eslint": "8.42.0",
-    "rollup": "3.24.0",
+    "rollup": "3.24.1",
     "rollup-plugin-auto-external": "2.0.0",
     "tsec": "0.2.7",
     "typescript": "5.1.3",
