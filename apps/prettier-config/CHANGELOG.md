@@ -1,5 +1,11 @@
 # @ckt1031/prettier-config
 
+## 1.1.8
+
+### Patch Changes
+
+- [#240](https://github.com/ckt1031/nodejs-config/pull/240) [`edb42ed`](https://github.com/ckt1031/nodejs-config/commit/edb42ed88d527ab28358c38791939a3e1216c977) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.32.0`.
+
 ## 1.1.7
 
 ### Patch Changes
