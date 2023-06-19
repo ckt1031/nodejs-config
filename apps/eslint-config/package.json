@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@ckt1031/tsconfig": "*",
-    "@rollup/plugin-commonjs": "25.0.1",
+    "@rollup/plugin-commonjs": "25.0.2",
     "@rollup/plugin-node-resolve": "15.1.0",
     "@rollup/plugin-typescript": "11.1.1",
     "@types/deepmerge": "2.2.0",
