@@ -36,8 +36,8 @@ importers:
         specifier: 3.0.1
         version: 3.0.1
       prettier:
-        specifier: 2.8.8
-        version: 2.8.8
+        specifier: 3.0.0
+        version: 3.0.0
       turbo:
         specifier: 1.10.7
         version: 1.10.7
@@ -67,7 +67,7 @@ importers:
         version: 6.7.1(eslint@8.44.0)
       eslint-plugin-prettier:
         specifier: 4.2.1
-        version: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.44.0)(prettier@2.8.8)
+        version: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.44.0)(prettier@3.0.0)
       eslint-plugin-promise:
         specifier: 6.1.1
         version: 6.1.1(eslint@8.44.0)
@@ -139,20 +139,20 @@ importers:
   apps/prettier-config:
     dependencies:
       prettier:
-        specifier: 2.x
-        version: 2.8.8
+        specifier: 2.x || 3.x
+        version: 3.0.0
       prettier-plugin-package-perfection:
         specifier: 1.1.0
         version: 1.1.0
       prettier-plugin-prisma:
         specifier: 4.13.0
-        version: 4.13.0(prettier@2.8.8)
+        version: 4.13.0(prettier@3.0.0)
       prettier-plugin-sort-json:
         specifier: 1.0.0
-        version: 1.0.0(prettier@2.8.8)
+        version: 1.0.0(prettier@3.0.0)
       prettier-plugin-tailwindcss:
         specifier: 0.3.0
-        version: 0.3.0(prettier@2.8.8)
+        version: 0.3.0(prettier@3.0.0)
       vitest:
         specifier: 0.32.4
         version: 0.32.4
@@ -2109,7 +2109,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.8.0)(eslint@8.44.0)(prettier@2.8.8):
+  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.8.0)(eslint@8.44.0)(prettier@3.0.0):
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2122,7 +2122,7 @@ packages:
     dependencies:
       eslint: 8.44.0
       eslint-config-prettier: 8.8.0(eslint@8.44.0)
-      prettier: 2.8.8
+      prettier: 3.0.0
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -3857,27 +3857,27 @@ packages:
       tslib: 2.6.0
     dev: false
 
-  /prettier-plugin-prisma@4.13.0(prettier@2.8.8):
+  /prettier-plugin-prisma@4.13.0(prettier@3.0.0):
     resolution: {integrity: sha512-bnOWoQTVXM9VWBErPGE6rVgI8kCQts+DMQolg7Sj/Q0/oAlpDYOhce4ljQKf5BhJW061yrB3+CRVps6tNcUkQg==}
     engines: {node: '>=14', npm: '>=8'}
     peerDependencies:
       prettier: '>=2'
     dependencies:
       '@prisma/prisma-fmt-wasm': 4.13.0-52.integration-mobc-upstream-d100a9299fcb9cffb064301998e9a94ce2722c49
-      prettier: 2.8.8
+      prettier: 3.0.0
     dev: false
 
-  /prettier-plugin-sort-json@1.0.0(prettier@2.8.8):
+  /prettier-plugin-sort-json@1.0.0(prettier@3.0.0):
     resolution: {integrity: sha512-XgcaF/Sojax1vD6j53wNIByx0rp7ecang+A8W0eM+Ks3yBFu/qXjJNvUtC1lEWeYbNfmRs/d8FyYJCYozAVENw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       prettier: ^2.3.2
     dependencies:
       '@types/prettier': 2.7.2
-      prettier: 2.8.8
+      prettier: 3.0.0
     dev: false
 
-  /prettier-plugin-tailwindcss@0.3.0(prettier@2.8.8):
+  /prettier-plugin-tailwindcss@0.3.0(prettier@3.0.0):
     resolution: {integrity: sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
@@ -3929,12 +3929,18 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      prettier: 2.8.8
+      prettier: 3.0.0
     dev: false
 
   /prettier@2.8.8:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: false
+
+  /prettier@3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: false
 
