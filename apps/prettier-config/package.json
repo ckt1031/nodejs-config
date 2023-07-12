@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "prettier-plugin-package-perfection": "1.1.0",
-    "prettier-plugin-prisma": "4.13.0",
+    "prettier-plugin-prisma": "4.17.0",
     "prettier-plugin-sort-json": "1.0.0",
     "prettier-plugin-tailwindcss": "0.4.0",
     "vitest": "0.33.0"
