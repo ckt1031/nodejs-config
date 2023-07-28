@@ -1,5 +1,39 @@
 # @ckt1031/eslint-config
 
+## 1.1.11
+
+### Patch Changes
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`a019773`](https://github.com/ckt1031/nodejs-config/commit/a01977369de9dc2fc9ce8a1f012b218cbbd5c0e2) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@rollup/plugin-commonjs` to `25.0.3`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`b361b1e`](https://github.com/ckt1031/nodejs-config/commit/b361b1e8b0d5a35018ca87e3f81f3bd8ee68954e) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/eslint` to `8.44.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`5609701`](https://github.com/ckt1031/nodejs-config/commit/560970172bc017765ec5d184083c620d79c81b60) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.4.1`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`06767bc`](https://github.com/ckt1031/nodejs-config/commit/06767bc8c937fbc7556e43118b63e3635f445534) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.4.2`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`70f046f`](https://github.com/ckt1031/nodejs-config/commit/70f046f43f75b727598b75d2f115f72b4a7d2dbf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.4.5`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`5ec1b55`](https://github.com/ckt1031/nodejs-config/commit/5ec1b5523fb2e9994d59973d40c931cbb1a0af6d) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/eslint-plugin` to `6.0.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`5ec1b55`](https://github.com/ckt1031/nodejs-config/commit/5ec1b5523fb2e9994d59973d40c931cbb1a0af6d) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/parser` to `6.0.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`ed0aab3`](https://github.com/ckt1031/nodejs-config/commit/ed0aab3797c63b131f381cd173e2c83c1b28a92a) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-config-prettier` to `8.9.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`a6fbe04`](https://github.com/ckt1031/nodejs-config/commit/a6fbe04c80c3cd36a1de54e0eacd17c5977f06bc) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-deprecation` to `1.5.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`c9cb2cb`](https://github.com/ckt1031/nodejs-config/commit/c9cb2cb3193996798c563c90e5b27fc0587aa4fb) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-prettier` to `5.0.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`fbc371d`](https://github.com/ckt1031/nodejs-config/commit/fbc371dcb192a006edbcf205ae34d120a81d1cd1) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-react` to `7.33.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`9d86941`](https://github.com/ckt1031/nodejs-config/commit/9d86941c304f4cf836b0f09789e789e524c73c3b) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-unicorn` to `48.0.1`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`cf2053f`](https://github.com/ckt1031/nodejs-config/commit/cf2053fc176fa45a320003a4c31045d71f63c708) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `3.26.2`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`a7e2c28`](https://github.com/ckt1031/nodejs-config/commit/a7e2c28ce76fe2fcce50436bef09232ede1ea08b) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `3.26.3`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`3fba4d0`](https://github.com/ckt1031/nodejs-config/commit/3fba4d07408bd6e944f18fbe61bf432cf15a3259) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.33.0`.
+
 ## 1.1.10
 
 ### Patch Changes
