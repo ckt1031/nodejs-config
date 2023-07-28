@@ -1,5 +1,19 @@
 # @ckt1031/prettier-config
 
+## 1.1.11
+
+### Patch Changes
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`894cd9c`](https://github.com/ckt1031/nodejs-config/commit/894cd9cd92edd852282b9486fe860768cb1a220e) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `prettier-plugin-prisma` to `4.17.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`9caf599`](https://github.com/ckt1031/nodejs-config/commit/9caf599192e80a9305a828ddd32357d1f4a4941c) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `prettier-plugin-prisma` to `5.0.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`22d92cf`](https://github.com/ckt1031/nodejs-config/commit/22d92cfc766493c0b6eebd337c11bd9f60497634) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `prettier-plugin-tailwindcss` to `0.4.0`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`d9487f3`](https://github.com/ckt1031/nodejs-config/commit/d9487f3ebd5ea770eeabcc112ebf680c310c7e3a) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `prettier-plugin-tailwindcss` to `0.4.1`.
+
+- [#303](https://github.com/ckt1031/nodejs-config/pull/303) [`3fba4d0`](https://github.com/ckt1031/nodejs-config/commit/3fba4d07408bd6e944f18fbe61bf432cf15a3259) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.33.0`.
+
 ## 1.1.10
 
 ### Patch Changes
