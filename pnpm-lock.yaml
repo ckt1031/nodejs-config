@@ -151,8 +151,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0(prettier@3.0.0)
       prettier-plugin-tailwindcss:
-        specifier: 0.4.1
-        version: 0.4.1(prettier@3.0.0)
+        specifier: 0.5.3
+        version: 0.5.3(prettier@3.0.0)
       vitest:
         specifier: 0.33.0
         version: 0.33.0
@@ -4052,7 +4052,7 @@ packages:
     dependencies:
       prettier: 2.8.8
       prettier-package-json: 2.6.0
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /prettier-plugin-prisma@5.0.0(prettier@3.0.0):
@@ -4075,16 +4075,16 @@ packages:
       prettier: 3.0.0
     dev: false
 
-  /prettier-plugin-tailwindcss@0.4.1(prettier@3.0.0):
-    resolution: {integrity: sha512-hwn2EiJmv8M+AW4YDkbjJ6HlZCTzLyz1QlySn9sMuKV/Px0fjwldlB7tol8GzdgqtkdPtzT3iJ4UzdnYXP25Ag==}
-    engines: {node: '>=12.17.0'}
+  /prettier-plugin-tailwindcss@0.5.3(prettier@3.0.0):
+    resolution: {integrity: sha512-M5K80V21yM+CTm/FEFYRv9/9LyInYbCSXpIoPAKMm8zy89IOwdiA2e4JVbcO7tvRtAQWz32zdj7/WKcsmFyAVg==}
+    engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
       '@prettier/plugin-pug': '*'
       '@shopify/prettier-plugin-liquid': '*'
       '@shufo/prettier-plugin-blade': '*'
       '@trivago/prettier-plugin-sort-imports': '*'
-      prettier: ^2.2 || ^3.0
+      prettier: ^3.0
       prettier-plugin-astro: '*'
       prettier-plugin-css-order: '*'
       prettier-plugin-import-sort: '*'
@@ -4932,6 +4932,10 @@ packages:
 
   /tslib@2.6.1:
     resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
+    dev: false
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
   /tsutils@3.21.0(typescript@5.1.6):
