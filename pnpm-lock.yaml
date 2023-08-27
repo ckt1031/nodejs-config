@@ -148,8 +148,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(prettier@3.0.0)
       prettier-plugin-sort-json:
-        specifier: 1.0.0
-        version: 1.0.0(prettier@3.0.0)
+        specifier: 3.0.1
+        version: 3.0.1(prettier@3.0.0)
       prettier-plugin-tailwindcss:
         specifier: 0.5.3
         version: 0.5.3(prettier@3.0.0)
@@ -968,10 +968,6 @@ packages:
 
   /@types/parse-json@4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
-    dev: false
-
-  /@types/prettier@2.7.2:
-    resolution: {integrity: sha512-KufADq8uQqo1pYKVIYzfKbJfBAc0sOeXqGbFaSpv8MRmC/zXgowNZmFcbngndGk922QDmOASEXUZCaY48gs4cg==}
     dev: false
 
   /@types/resolve@1.20.2:
@@ -4176,13 +4172,12 @@ packages:
       prettier: 3.0.0
     dev: false
 
-  /prettier-plugin-sort-json@1.0.0(prettier@3.0.0):
-    resolution: {integrity: sha512-XgcaF/Sojax1vD6j53wNIByx0rp7ecang+A8W0eM+Ks3yBFu/qXjJNvUtC1lEWeYbNfmRs/d8FyYJCYozAVENw==}
-    engines: {node: '>=14.0.0'}
+  /prettier-plugin-sort-json@3.0.1(prettier@3.0.0):
+    resolution: {integrity: sha512-YwBxM8FxhnTW/Y6oovigLOSvqdNdkyIAi9JdDK2SS5T+Nws6MDhr+xEuiPf83TSPDfWjRc71riMYMfmMHtj05w==}
+    engines: {node: '>=16.0.0'}
     peerDependencies:
-      prettier: ^2.3.2
+      prettier: ^3.0.0
     dependencies:
-      '@types/prettier': 2.7.2
       prettier: 3.0.0
     dev: false
 
