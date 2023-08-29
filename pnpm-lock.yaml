@@ -127,8 +127,8 @@ importers:
         specifier: 2.0.0
         version: 2.0.0(rollup@3.28.0)
       tsec:
-        specifier: 0.2.7
-        version: 0.2.7(@bazel/bazelisk@1.12.1)(@bazel/concatjs@5.8.1)(typescript@5.2.2)
+        specifier: 0.2.8
+        version: 0.2.8(@bazel/bazelisk@1.12.1)(@bazel/concatjs@5.8.1)(typescript@5.2.2)
       typescript:
         specifier: 5.2.2
         version: 5.2.2
@@ -4922,7 +4922,7 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@pkgr/utils': 2.4.2
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /tailwindcss@3.3.2:
@@ -5041,8 +5041,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: false
 
-  /tsec@0.2.7(@bazel/bazelisk@1.12.1)(@bazel/concatjs@5.8.1)(typescript@5.2.2):
-    resolution: {integrity: sha512-Pj9DuBBWLEo8p7QsbrEdXzW/u6QJBcib0ZGOTXkeSDx+PLXFY7hwyZE9Tfhp3TA3LQNpYouyT0WmzXRyUW4otQ==}
+  /tsec@0.2.8(@bazel/bazelisk@1.12.1)(@bazel/concatjs@5.8.1)(typescript@5.2.2):
+    resolution: {integrity: sha512-d2vdTEtLbPzTs57ygzzPk6QrdW1lA8SBAoHZCVvAyC3R1LTjsQ2eGg/XRmtoCpXOVIflVtMsxtzk7eTHwT+DjQ==}
     hasBin: true
     peerDependencies:
       '@bazel/bazelisk': '>=1.7.5'
