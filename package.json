@@ -30,7 +30,7 @@
     "@types/node": "20.5.7",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
-    "prettier": "3.0.2",
+    "prettier": "3.0.3",
     "turbo": "1.10.13"
   },
   "packageManager": "pnpm@8.7.0",
