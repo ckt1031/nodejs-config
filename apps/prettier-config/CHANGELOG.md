@@ -1,5 +1,15 @@
 # @ckt1031/prettier-config
 
+## 1.1.13
+
+### Patch Changes
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `prettier-plugin-sort-json` to `3.0.1`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `prettier-plugin-tailwindcss` to `0.5.4`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.34.3`.
+
 ## 1.1.12
 
 ### Patch Changes
