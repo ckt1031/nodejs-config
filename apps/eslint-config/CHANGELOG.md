@@ -1,5 +1,33 @@
 # @ckt1031/eslint-config
 
+## 1.1.13
+
+### Patch Changes
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@rollup/plugin-node-resolve` to `15.2.1`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@rollup/plugin-typescript` to `11.1.3`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.5.7`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.5.9`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/eslint-plugin` to `6.5.0`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/parser` to `6.5.0`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint` to `8.48.0`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-sonarjs` to `0.21.0`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `3.28.1`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `tsec` to `0.2.8`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `typescript` to `5.2.2`.
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.34.3`.
+
 ## 1.1.12
 
 ### Patch Changes

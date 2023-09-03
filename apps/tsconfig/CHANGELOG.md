@@ -1,5 +1,11 @@
 # @ckt1031/tsconfig
 
+## 1.1.13
+
+### Patch Changes
+
+- [#339](https://github.com/ckt1031/nodejs-config/pull/339) [`56be999`](https://github.com/ckt1031/nodejs-config/commit/56be999a89136ac578241a250b07428c7702bdc4) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `typescript` to `5.2.2`.
+
 ## 1.1.12
 
 ## 1.1.11
