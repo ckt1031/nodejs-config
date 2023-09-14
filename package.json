@@ -26,7 +26,7 @@
     "@ckt1031/eslint-config": "*",
     "@ckt1031/prettier-config": "*",
     "@ckt1031/tsconfig": "*",
-    "@esbuild-kit/esm-loader": "2.6.3",
+    "@esbuild-kit/esm-loader": "2.6.4",
     "@types/node": "20.5.9",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
