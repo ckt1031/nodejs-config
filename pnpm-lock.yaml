@@ -148,8 +148,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(prettier@3.0.0)
       prettier-plugin-sort-json:
-        specifier: 3.0.1
-        version: 3.0.1(prettier@3.0.0)
+        specifier: 3.1.0
+        version: 3.1.0(prettier@3.0.0)
       prettier-plugin-tailwindcss:
         specifier: 0.5.4
         version: 0.5.4(prettier@3.0.0)
@@ -4400,8 +4400,8 @@ packages:
       prettier: 3.0.0
     dev: false
 
-  /prettier-plugin-sort-json@3.0.1(prettier@3.0.0):
-    resolution: {integrity: sha512-YwBxM8FxhnTW/Y6oovigLOSvqdNdkyIAi9JdDK2SS5T+Nws6MDhr+xEuiPf83TSPDfWjRc71riMYMfmMHtj05w==}
+  /prettier-plugin-sort-json@3.1.0(prettier@3.0.0):
+    resolution: {integrity: sha512-eIDEUjwzekiVd+oKrpd0aoACBTp5zOW71wDTNy+qQ5C9Q8oqt9n9wCm4F+SeRZbXfgblh/WYIguJynImlBXrvQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.0
