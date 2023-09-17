@@ -56,7 +56,7 @@
     "rollup-plugin-auto-external": "2.0.0",
     "tsec": "0.2.8",
     "typescript": "5.2.2",
-    "vitest": "0.34.3"
+    "vitest": "0.34.4"
   },
   "keywords": [
     "ckt1031",
