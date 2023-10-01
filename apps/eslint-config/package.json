@@ -50,7 +50,7 @@
     "@types/deepmerge": "2.2.0",
     "@types/eslint": "8.44.2",
     "@types/node": "20.8.0",
-    "@types/rollup-plugin-auto-external": "2.0.2",
+    "@types/rollup-plugin-auto-external": "2.0.3",
     "eslint": "8.50.0",
     "rollup": "3.29.0",
     "rollup-plugin-auto-external": "2.0.0",

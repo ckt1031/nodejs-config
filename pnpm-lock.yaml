@@ -115,8 +115,8 @@ importers:
         specifier: 20.8.0
         version: 20.8.0
       '@types/rollup-plugin-auto-external':
-        specifier: 2.0.2
-        version: 2.0.2
+        specifier: 2.0.3
+        version: 2.0.3
       eslint:
         specifier: 8.50.0
         version: 8.50.0
@@ -1172,8 +1172,8 @@ packages:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
-  /@types/rollup-plugin-auto-external@2.0.2:
-    resolution: {integrity: sha512-1Xtl9S4yQapD+A4mX1sqYVXm3UmVA9oIEf2YKEhRTCUNxlAM3DoKK1HPxrGMemDJNfhe6Yl3w0JsAGvIN5j/ow==}
+  /@types/rollup-plugin-auto-external@2.0.3:
+    resolution: {integrity: sha512-53aSj+4CdKav2uGO4++IHlA7kOF1XxLRMaznAXcWx2zj87YDBZ5ZhWPAJ2vvri2WqjPdrOznf1qSvnm9hlPyww==}
     dependencies:
       rollup: 3.29.0
     dev: true
