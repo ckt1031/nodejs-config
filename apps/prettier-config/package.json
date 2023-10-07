@@ -24,9 +24,9 @@
   "dependencies": {
     "prettier-plugin-package-perfection": "1.1.0",
     "prettier-plugin-prisma": "5.0.0",
-    "prettier-plugin-sort-json": "3.0.1",
-    "prettier-plugin-tailwindcss": "0.5.4",
-    "vitest": "0.34.3"
+    "prettier-plugin-sort-json": "3.1.0",
+    "prettier-plugin-tailwindcss": "0.5.5",
+    "vitest": "0.34.6"
   },
   "peerDependencies": {
     "prettier": "2.x || 3.x"
