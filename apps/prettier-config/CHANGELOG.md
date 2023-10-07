@@ -1,5 +1,13 @@
 # @ckt1031/prettier-config
 
+## 1.1.14
+
+### Patch Changes
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.34.4`.
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.34.6`.
+
 ## 1.1.13
 
 ### Patch Changes
