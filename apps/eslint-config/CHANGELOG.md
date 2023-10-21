@@ -1,5 +1,27 @@
 # @ckt1031/eslint-config
 
+## 1.1.14
+
+### Patch Changes
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.6.2`.
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.8.0`.
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/eslint-plugin` to `6.6.0`.
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/parser` to `6.6.0`.
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint` to `8.49.0`.
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint` to `8.50.0`.
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `3.29.0`.
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.34.4`.
+
+- [#363](https://github.com/ckt1031/nodejs-config/pull/363) [`0b8fa94`](https://github.com/ckt1031/nodejs-config/commit/0b8fa940aebeac44f1fde081b09a9a1088db2faf) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.34.6`.
+
 ## 1.1.13
 
 ### Patch Changes
