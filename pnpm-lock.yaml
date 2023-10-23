@@ -75,8 +75,8 @@ importers:
         specifier: 7.33.2
         version: 7.33.2(eslint@8.52.0)
       eslint-plugin-regexp:
-        specifier: 2.1.0
-        version: 2.1.0(eslint@8.52.0)
+        specifier: 2.1.1
+        version: 2.1.1(eslint@8.52.0)
       eslint-plugin-security:
         specifier: 1.7.1
         version: 1.7.1
@@ -2720,8 +2720,8 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: false
 
-  /eslint-plugin-regexp@2.1.0(eslint@8.52.0):
-    resolution: {integrity: sha512-MW0Tq5PH/77rctyDjYahJp3+hQknatIHarOdpvXT5OQ3VGc7cd3UC37vkYEOzdoDPB34zCL/LWI7Dla7L8UBCQ==}
+  /eslint-plugin-regexp@2.1.1(eslint@8.52.0):
+    resolution: {integrity: sha512-FGa/idrL5tzMCnGylyx8DCWTX3vDuEtE/CVqTx+yYwe5qY3JRppbNVkOVGIkQF0klVlrG+LxwAXRXTUr5yU5uA==}
     engines: {node: ^18 || >=20}
     peerDependencies:
       eslint: '>=8.44.0'
