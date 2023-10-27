@@ -33,6 +33,6 @@
     "prettier": "3.0.3",
     "turbo": "1.10.16"
   },
-  "packageManager": "pnpm@8.9.2",
+  "packageManager": "pnpm@8.10.0",
   "prettier": "@ckt1031/prettier-config"
 }
