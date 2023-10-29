@@ -1,5 +1,59 @@
 # @ckt1031/eslint-config
 
+## 1.1.15
+
+### Patch Changes
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@rollup/plugin-commonjs` to `25.0.7`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@rollup/plugin-node-resolve` to `15.2.3`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/eslint` to `8.44.6`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.6.2`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.8.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.8.7`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/node` to `20.8.9`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@types/rollup-plugin-auto-external` to `2.0.4`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/eslint-plugin` to `6.6.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/eslint-plugin` to `6.8.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/eslint-plugin` to `6.9.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/parser` to `6.6.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/parser` to `6.8.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `@typescript-eslint/parser` to `6.9.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint` to `8.49.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint` to `8.50.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint` to `8.52.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-prettier` to `5.0.1`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-regexp` to `2.1.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `eslint-plugin-regexp` to `2.1.1`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `3.29.0`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `4.1.4`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `rollup` to `4.1.5`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.34.4`.
+
+- [#377](https://github.com/ckt1031/nodejs-config/pull/377) [`9208aa9`](https://github.com/ckt1031/nodejs-config/commit/9208aa9721cc1fa9812bcdc307eb64492ca17656) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `0.34.6`.
+
 ## 1.1.14
 
 ### Patch Changes
