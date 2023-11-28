@@ -21,7 +21,7 @@
     "test": "turbo test"
   },
   "dependencies": {
-    "@changesets/changelog-github": "0.4.8",
+    "@changesets/changelog-github": "0.5.0",
     "@changesets/cli": "2.26.2",
     "@ckt1031/eslint-config": "workspace:*",
     "@ckt1031/prettier-config": "workspace:*",
