@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@changesets/changelog-github": "0.4.8",
-    "@changesets/cli": "2.26.2",
+    "@changesets/cli": "2.27.1",
     "@ckt1031/eslint-config": "workspace:*",
     "@ckt1031/prettier-config": "workspace:*",
     "@ckt1031/tsconfig": "workspace:*",
