@@ -4,18 +4,13 @@ description: Prepare and install everything for nodejs repo
 runs:
   using: composite
   steps:
-    - uses: pnpm/action-setup@v2
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
+    - uses: oven-sh/setup-bun@v1
       with:
-        cache: pnpm
-        node-version: 18
-        registry-url: https://registry.npmjs.org/
+        bun-version: latest
 
     - name: Install dependencies
       shell: bash
-      run: pnpm i
+      run: bun i
 
     - name: Restore Turborepo Cache
       uses: actions/cache@v3
@@ -29,4 +24,4 @@ runs:
 
     - name: Build packages
       shell: bash
-      run: pnpm build
+      run: bun run build
