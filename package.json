@@ -23,16 +23,16 @@
     "apps/*"
   ],
   "dependencies": {
-    "@changesets/changelog-github": "0.4.8",
-    "@changesets/cli": "2.26.2",
+    "@changesets/changelog-github": "0.5.0",
+    "@changesets/cli": "2.27.1",
     "@ckt1031/eslint-config": "workspace:*",
     "@ckt1031/prettier-config": "workspace:*",
     "@ckt1031/tsconfig": "workspace:*",
     "@esbuild-kit/esm-loader": "2.6.5",
-    "@types/node": "20.9.0",
+    "@types/node": "20.10.2",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
-    "prettier": "3.0.3",
+    "prettier": "3.1.0",
     "turbo": "1.10.16"
   },
   "prettier": "@ckt1031/prettier-config"
