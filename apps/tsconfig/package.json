@@ -1,6 +1,6 @@
 {
   "name": "@ckt1031/tsconfig",
-  "version": "1.1.16",
+  "version": "1.1.17",
   "description": "Typescript config for ckt1031, ensure the consistency of code quality.",
   "license": "MIT",
   "author": "Chan Ka Tsun <me@cktidy.xyz> (https://github.com/ckt1031/)",
