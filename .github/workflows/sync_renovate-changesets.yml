@@ -3,7 +3,7 @@ on:
   pull_request_target:
     paths:
       - '.github/workflows/sync_renovate-changesets.yml'
-      - 'bun.lockb'
+      - 'pnpm-lock.yaml'
 
 jobs:
   generate-changeset:
@@ -24,4 +24,4 @@ jobs:
           git config --global user.name 'Github changeset workflow'
 
       - name: Generate changeset
-        run: bun scripts/sync-renovate-changesets.ts
+        run: pnpm sync-renovate-changesets
