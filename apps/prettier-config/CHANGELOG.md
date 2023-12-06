@@ -1,5 +1,13 @@
 # @ckt1031/prettier-config
 
+## 1.1.16
+
+### Patch Changes
+
+- [#407](https://github.com/ckt1031/nodejs-config/pull/407) [`246315b`](https://github.com/ckt1031/nodejs-config/commit/246315b1d67d85c650e35f1df06f616367627db2) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `prettier-plugin-tailwindcss` to `0.5.9`.
+
+- [#407](https://github.com/ckt1031/nodejs-config/pull/407) [`246315b`](https://github.com/ckt1031/nodejs-config/commit/246315b1d67d85c650e35f1df06f616367627db2) Thanks [@ckt1031](https://github.com/ckt1031)! - Updated dependency `vitest` to `1.0.1`.
+
 ## 1.1.15
 
 ### Patch Changes
